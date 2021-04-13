@@ -12,7 +12,7 @@
 * [동적쿼리](DataBase/동적쿼리.md)
 * [Oracle,MySQL,MS-SQL 간단요약](DataBase/Oracle,MySQL,MS-SQL간단요약.md)
 * [SubQuery](DataBase/SubQuery.md)
-* [Oracle 시간 형변환](DataBase/Oracle 시간형변환.md)
+* [Oracle 시간 형변환](DataBase/Oracle시간형변환.md)
 
 ### JavaScript, Jquery, JSTL
 * [Import](Script,Jquery,JSTL/Import.md) 
