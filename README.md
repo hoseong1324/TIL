@@ -5,12 +5,12 @@
 
 ### Java
 * [Java 정규화](Java/Java정규화.md)
-* [subString, 현재시간 가져오기](Java/subString,현재시간 가져오기.md)
-* [Annotation](https://github.com/hoseong1324/TIL/blob/main/Git/Annotation.md)
+* [subString, 현재시간 가져오기](Java/SubString,현재시간 가져오기.md)
+* [Annotation](Java/Annotation.md)
 
 ### DataBase
-* [동적쿼리](https://github.com/hoseong1324/TIL/blob/main/Git/%EB%8F%99%EC%A0%81%EC%BF%BC%EB%A6%AC.md)
-* [Oracle,MySQL,MS-SQL 간단요약](https://github.com/hoseong1324/TIL/blob/main/Git/Oracle%2CMySQL%2CMS-SQL%EA%B0%84%EB%8B%A8%EC%9A%94%EC%95%BD.md)
+* [동적쿼리](DataBase/동적쿼리.md)
+* [Oracle,MySQL,MS-SQL 간단요약](DataBase/Oracle,MySQL,MS-SQL 간단요약.md)
 * [SubQuery](https://github.com/hoseong1324/TIL/blob/main/Git/SubQuery.md)
 * [Oracle 시간 형변환](https://github.com/hoseong1324/TIL/blob/main/Git/Oracle%20%EC%8B%9C%EA%B0%84%ED%98%95%EB%B3%80%ED%99%98.md)
 
