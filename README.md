@@ -13,7 +13,7 @@
 * [Oracle,MySQL,MS-SQL 간단요약](https://github.com/hoseong1324/TIL/blob/main/Git/Oracle%2CMySQL%2CMS-SQL%EA%B0%84%EB%8B%A8%EC%9A%94%EC%95%BD.md)
 
 ### JavaScript, Jquery, JSTL
-+ [Import](https://github.com/hoseong1324/TIL/blob/main/Git/Import.md) 
+* [Import](https://github.com/hoseong1324/TIL/blob/main/Git/Import.md) 
 * [Select Box - Jquery](https://github.com/hoseong1324/TIL/blob/main/Git/SelectBox-Jquery.md)
 * [변수선언](https://github.com/hoseong1324/TIL/blob/main/Git/%EB%B3%80%EC%88%98%EC%84%A0%EC%96%B8.md)
 * [유효성검사](https://github.com/hoseong1324/TIL/blob/main/Git/%EC%9C%A0%ED%9A%A8%EC%84%B1%EA%B2%80%EC%82%AC.md)
