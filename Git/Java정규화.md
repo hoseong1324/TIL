@@ -12,7 +12,10 @@
 * * *
 
 ![image](https://user-images.githubusercontent.com/59944238/114512886-89fb0180-9c74-11eb-8d6d-a1b1f6f3b562.png)
+```
+import java.util.regex.Pattern;
 
+public class RegexExample {
 	public static void main(String[] args)  {
     
             String pattern = "^[0-9]*$"; //숫자만
@@ -20,8 +23,9 @@
         
             boolean regex = Pattern.matches(pattern, val);
             System.out.println(regex);
+    }
 }
-
+```
 * Pattern 클래스 주요 메서드
 * compile(String regex) : 주어진 정규표현식으로부터 패턴을 만듭니다.
 * matcher(CharSequence input) : 대상 문자열이 패턴과 일치할 경우 true를 반환합니다.
@@ -40,12 +44,17 @@
 
 
 ```
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class RegexExample {
 	public static void main(String[] args)  {
             Pattern pattern = Pattern.compile("^[a-zA-Z]*$"); //영문자만
             String val = "abcdef"; //대상문자열
 	
             Matcher matcher = pattern.matcher(val);
             System.out.println(matcher.find());
+	}
 }
 ```
 
