@@ -5,7 +5,7 @@
 
 ### Java
 * [Java 정규화](Java/Java정규화.md)
-* [subString, 현재시간 가져오기](SubString, 현재시간 가져오기.md)
+* [subString, 현재시간 가져오기](Java/SubString, 현재시간 가져오기.md)
 * [Annotation](Java/Annotation.md)
 
 ### DataBase
