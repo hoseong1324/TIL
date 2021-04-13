@@ -10,7 +10,7 @@
 
 ### DataBase
 * [동적쿼리](DataBase/동적쿼리.md)
-* [Oracle,MySQL,MS-SQL 간단요약](DataBase/Oracle,MySQL,MS-SQL 간단요약.md)
+* [Oracle,MySQL,MS-SQL 간단요약](DataBase/Oracle,MySQL,MS-SQL간단요약.md)
 * [SubQuery](https://github.com/hoseong1324/TIL/blob/main/Git/SubQuery.md)
 * [Oracle 시간 형변환](https://github.com/hoseong1324/TIL/blob/main/Git/Oracle%20%EC%8B%9C%EA%B0%84%ED%98%95%EB%B3%80%ED%99%98.md)
 
