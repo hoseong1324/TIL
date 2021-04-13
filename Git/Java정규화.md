@@ -12,9 +12,9 @@
 * * *
 
 ![image](https://user-images.githubusercontent.com/59944238/114512886-89fb0180-9c74-11eb-8d6d-a1b1f6f3b562.png)
-```
 
 * * *
+```
 import java.util.regex.Pattern;
 
 public class RegexExample {
