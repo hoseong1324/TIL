@@ -1,4 +1,4 @@
-###subString
+### subString
 ```
 //사용법 
 String.substring(start)  //문자열 start위치부터 끝까지 문자열 자르기 
