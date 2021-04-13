@@ -39,7 +39,7 @@
 * Pattert.UNIX_LINES : 수식 ‘.’ 과 ‘^’ 및 ‘$’의 match시에 한 라인의 끝을 의미하는 ‘\n’만 인식됩니다.
 
 
-
+```
 	public static void main(String[] args)  {
             Pattern pattern = Pattern.compile("^[a-zA-Z]*$"); //영문자만
             String val = "abcdef"; //대상문자열
@@ -47,7 +47,7 @@
             Matcher matcher = pattern.matcher(val);
             System.out.println(matcher.find());
 }
-
+```
 
 * Matcher 클래스 주요 메서드
 * matches() : 대상 문자열과 패턴이 일치할 경우 true 반환합니다.
