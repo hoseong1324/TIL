@@ -55,15 +55,15 @@ public class RegexExample {
 }
 
 
-Matcher 클래스 주요 메서드
-matches() : 대상 문자열과 패턴이 일치할 경우 true 반환합니다.
-find() : 대상 문자열과 패턴이 일치하는 경우 true를 반환하고, 그 위치로 이동합니다.
-find(int start) : start위치 이후부터 매칭검색을 수행합니다.
-start() : 매칭되는 문자열 시작위치 반환합니다.
-start(int group) : 지정된 그룹이 매칭되는 시작위치 반환합니다.
-end() : 매칭되는  문자열 끝 다음 문자위치 반환합니다.
-end(int group) : 지정되 그룹이 매칭되는 끝 다음 문자위치 반환합니다.
-group() : 매칭된 부분을 반환합니다.
-group(int group) : 매칭된 부분중 group번 그룹핑 매칭부분 반환합니다. 
-groupCount() : 패턴내 그룹핑한(괄호지정) 전체 갯수를 반환합니다
+* Matcher 클래스 주요 메서드
+* * matches() : 대상 문자열과 패턴이 일치할 경우 true 반환합니다.
+* * find() : 대상 문자열과 패턴이 일치하는 경우 true를 반환하고, 그 위치로 이동합니다.
+* * find(int start) : start위치 이후부터 매칭검색을 수행합니다.
+* * start() : 매칭되는 문자열 시작위치 반환합니다.
+* * start(int group) : 지정된 그룹이 매칭되는 시작위치 반환합니다.
+* * end() : 매칭되는  문자열 끝 다음 문자위치 반환합니다.
+* * end(int group) : 지정되 그룹이 매칭되는 끝 다음 문자위치 반환합니다.
+* * group() : 매칭된 부분을 반환합니다.
+* * group(int group) : 매칭된 부분중 group번 그룹핑 매칭부분 반환합니다. 
+* * groupCount() : 패턴내 그룹핑한(괄호지정) 전체 갯수를 반환합니다
 
