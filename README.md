@@ -13,4 +13,9 @@
 * [Oracle,MySQL,MS-SQL 간단요약](https://github.com/hoseong1324/TIL/blob/main/Git/Oracle%2CMySQL%2CMS-SQL%EA%B0%84%EB%8B%A8%EC%9A%94%EC%95%BD.md)
 
 ### JavaScript, Jquery
++ Import 
++ Jquery Import + <script src="http://code.jquery.com/jquery-latest.js"></script>
++ JSTL Import + <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+
+
 * [Select Box - Jquery](https://github.com/hoseong1324/TIL/blob/main/Git/SelectBox-Jquery.md)
