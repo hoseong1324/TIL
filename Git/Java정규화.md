@@ -13,6 +13,8 @@
 
 ![image](https://user-images.githubusercontent.com/59944238/114512886-89fb0180-9c74-11eb-8d6d-a1b1f6f3b562.png)
 ```
+
+* * *
 import java.util.regex.Pattern;
 
 public class RegexExample {
@@ -41,7 +43,7 @@ public class RegexExample {
 * Pattern.DOTALL : 수식 ‘.’과 모든 문자와 match 되고 ‘\n’ 도 match 에 포함됩니다.
 * Pattern.UNICODE_CASE : 유니코드를 기준으로 대소문자 구분 없이 match 시킵니다.
 * Pattert.UNIX_LINES : 수식 ‘.’ 과 ‘^’ 및 ‘$’의 match시에 한 라인의 끝을 의미하는 ‘\n’만 인식됩니다.
-
+* * *
 
 ```
 import java.util.regex.Matcher;
