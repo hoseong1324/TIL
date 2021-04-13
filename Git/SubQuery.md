@@ -1,10 +1,9 @@
 ```
 Subquery
 
-2021년 3월 17일 수요일
-오후 12:00
 
-https://mozi.tistory.com/233
+![image](https://user-images.githubusercontent.com/59944238/114519545-7acb8200-9c7b-11eb-93ef-4ddeed8f8679.png)
+
 
 서브쿼리가 단일 행 비교 연산자(=, <, <=, >, >=, <>)와 함께 사용할 때는 서브쿼리의 결과 건수가 반드시 1건 이하여야 합니다.
 만약 결과가 2건 이상인 경우 오류가 발생합니다.
@@ -24,5 +23,6 @@ https://mozi.tistory.com/233
 
 다중행 서브쿼리 
 	- 수행결과 여러개를 반환    
-( https://m.blog.naver.com/PostView.nhn?blogId=leeminji25&logNo=220909398272&proxyReferer=https:%2F%2Fwww.google.com%2F )
+![image](https://user-images.githubusercontent.com/59944238/114519594-86b74400-9c7b-11eb-95bb-326c5ee156f4.png)
+
 ```
