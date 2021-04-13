@@ -39,10 +39,7 @@
 * Pattert.UNIX_LINES : 수식 ‘.’ 과 ‘^’ 및 ‘$’의 match시에 한 라인의 끝을 의미하는 ‘\n’만 인식됩니다.
 
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
-public class RegexExample {
 	public static void main(String[] args)  {
             Pattern pattern = Pattern.compile("^[a-zA-Z]*$"); //영문자만
             String val = "abcdef"; //대상문자열
@@ -50,7 +47,6 @@ public class RegexExample {
             Matcher matcher = pattern.matcher(val);
             System.out.println(matcher.find());
 	}
-}
 
 
 * Matcher 클래스 주요 메서드
