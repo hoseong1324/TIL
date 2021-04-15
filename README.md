@@ -19,3 +19,6 @@
 * [Select Box - Jquery](Script,Jquery,JSTL/SelectBox-Jquery.md)
 * [변수선언](Script,Jquery,JSTL/변수선언.md)
 * [유효성검사](Script,Jquery,JSTL/유효성검사.md)
+
+### Eclipse
+* [validating 시간소모](validating 시간소모.md)
