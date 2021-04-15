@@ -12,6 +12,19 @@ String e_url = URLEncoder.encode(url,"UTF-8);
 Strung D_url = URLDecoder.decode(e_url,"UTF-8");
 ```
 
+▣ URLEncoder 변환규칙 
+- 아스키문자(a~z, A~Z, 1~9),  '.',  '-',  '*',  '_' : 그대로 전달 
+- 공백문자(' ') : '+' 기호로 변환됨 
+- 기타문자 : '%xy' 와 같이 세 개의 문자로 변환되며, 이 때 xy는 해당 문자의 ASCII코드를 16진수화한 결과를 두자리의 대문자로 나타낸 것이다.
+- URLEncoder를 이용한 웹인코딩 
+- String enStr = URLEncoder.encode("네이버-www.naver.com", "EUC_KR");
+
+▣ URLDecoder를 이용한 웹디코딩 
+- String enStr = URLEncoder.encode("네이버-www.naver.com", "EUC_KR"); 
+- String deStr = URLDecoder.decode(enStr, "EUC_KR"); 
+
+
+
 ### BASE64를 직역하면 64진법이라는 말 
 * 8bit 이진 데이터를 문자코드에 영향 받지않게 공통 ASCII 영역의 문자로 이루어진 일련의 문자열로 바꾸는 인코딩 방식
 
