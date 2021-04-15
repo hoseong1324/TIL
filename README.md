@@ -5,6 +5,7 @@
 
 ### Eclipse
 * [validating 시간소모](Eclipse/validating시간소모.md)
+* [tomcat time out 걸릴시](tomcat_timeout.md)
 
 ### Java
 * [Java 정규화](Java/Java정규화.md)
