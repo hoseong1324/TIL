@@ -29,3 +29,6 @@
 
 ##### 필요에 따라 적용해보도록 한다.
 
+### 그래도 계속 나올 시 
+windows - properties - maven - java EE integration - JPA configration 
+
