@@ -29,4 +29,4 @@
 
 ### Spring
 * [ServletRequestUtils 사용](Spring/ServletRequestUtils.md)
-* [StringUtils 사용 ( 공부중 )](StringUtils.md)
+* [StringUtils 사용](Spring/StringUtils.md)
