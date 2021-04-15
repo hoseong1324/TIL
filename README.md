@@ -21,4 +21,4 @@
 * [유효성검사](Script,Jquery,JSTL/유효성검사.md)
 
 ### Eclipse
-* [validating 시간소모](validating 시간소모.md)
+* [validating 시간소모](Eclipse/validating 시간소모.md)
