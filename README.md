@@ -3,6 +3,9 @@
 
 * * *
 
+### Eclipse
+* [validating 시간소모](Eclipse/validating시간소모.md)
+
 ### Java
 * [Java 정규화](Java/Java정규화.md)
 * [subString, 현재시간 가져오기](Java/SubString,현재시간가져오기.md)
@@ -20,5 +23,4 @@
 * [변수선언](Script,Jquery,JSTL/변수선언.md)
 * [유효성검사](Script,Jquery,JSTL/유효성검사.md)
 
-### Eclipse
-* [validating 시간소모](Eclipse/validating시간소모.md)
+
