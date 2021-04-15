@@ -20,7 +20,7 @@ str.substring(3, 6);
 
 ```
 SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-
+```
 * Date 이용
 ```
 Date time = new Date();
