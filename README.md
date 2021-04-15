@@ -6,7 +6,7 @@
 ### Eclipse
 * [validating 시간소모](Eclipse/validating시간소모.md)
 * [tomcat time out 걸릴시](Eclipse/tomcat_timeout.md)
-* [JPA Project Chang Event Handler로 인해 이클립스 멈췄을 시](JPAProjectChangeEventHandler.md)
+* [JPA Project Chang Event Handler로 인해 이클립스 멈췄을 시](Eclipse/JPAProjectChangeEventHandler.md)
 
 ### Java
 * [Java 정규화](Java/Java정규화.md)
