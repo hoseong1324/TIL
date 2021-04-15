@@ -1,3 +1,17 @@
+### 기본 인/디코딩
+
+- import java.net.URLEncoder;
+- import java.net.URLDecoder;
+
+```
+String url = "test";
+// URLEncoder.encode(변수, "형식")
+String e_url = URLEncoder.encode(url,"UTF-8);
+
+// URLDecoder.decode(변수, "형식") 
+Strung D_url = URLDecoder.decode(e_url,"UTF-8");
+```
+
 ### BASE64를 직역하면 64진법이라는 말 
 * 8bit 이진 데이터를 문자코드에 영향 받지않게 공통 ASCII 영역의 문자로 이루어진 일련의 문자열로 바꾸는 인코딩 방식
 
