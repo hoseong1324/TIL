@@ -4,7 +4,7 @@
 * * *
 
 ### Eclipse
-* [validating 시간소모](Eclipse/validating시간소모.md)
+* [validating (유효성 검사)시간소모](Eclipse/validating시간소모.md)
 * [tomcat time out 걸릴시](Eclipse/tomcat_timeout.md)
 * [JPA Project Chang Event Handler로 인해 이클립스 멈췄을 시](Eclipse/JPA_Project_Change_Event_Handler.md)
 
