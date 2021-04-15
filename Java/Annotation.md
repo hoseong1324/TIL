@@ -67,8 +67,7 @@
 	
 @ModelAttribute
 	- view에서 전달해주는 파라미터를 클래스(VO/DTO)의 멤버 변수로 binding 해주는 애노테이션
-
+```
 https://gmlwjd9405.github.io/2018/12/02/spring-annotation-types.html
 
 
-```
