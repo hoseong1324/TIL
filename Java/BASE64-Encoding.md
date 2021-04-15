@@ -9,6 +9,7 @@
 - 제어문자와 특수문자를 제외한 64개의 안전한 문자만을 사용하기 때문이다.
 - (안전한 출력 문자란 문자 코드에 영향을 받지 않는 공통 ASCII를 의미)
 
+* * *
 
 - import sun.misc.BASE64Encoder;
 - import sun.misc.BASE64Decoder;
