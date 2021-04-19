@@ -1,6 +1,6 @@
 ### JNDI 연동
 
-#### 현재 정확하지 않음 수정 예정
+### 현재 정확하지 않음 수정 예정
 
 ```
 <GlobalNamingResources>
