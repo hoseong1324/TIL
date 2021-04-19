@@ -4,7 +4,7 @@
 **라이브러리 직접다운 url**
 https://commons.apache.org/proper/commons-lang/download_lang.cgi
 
-**Maven사용 pom.xml 사용**
+**Maven 사용 pom.xml 작성**
 ```
 
 <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
