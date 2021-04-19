@@ -1,7 +1,7 @@
 
 ### StringUtils  찾아서 쓰기 위한 복붙
 
-
+```
 
 <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
 
@@ -14,6 +14,7 @@
   <version>3.8</version>
 
 </dependency>
+```
 
 **StringUtils.abbreviate(문자열, 보여줄숫자(...포함))** 
 
