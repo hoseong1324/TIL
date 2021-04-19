@@ -4,7 +4,12 @@
 ```
 <GlobalNamingResources>
 
-<Resource auth="Container" description="User database that can be updated and saved" factory="org.apache.catalina.users.MemoryUserDatabaseFactory" name="UserDatabase" pathname="conf/tomcat-users.xml" type="org.apache.catalina.UserDatabase"/>
+<Resource auth="Container" 
+description="User database that can be updated and saved" 
+factory="org.apache.catalina.users.MemoryUserDatabaseFactory"
+name="UserDatabase" 
+pathname="conf/tomcat-users.xml" 
+type="org.apache.catalina.UserDatabase"/>
 ```
 ***이곳에 접근 DB 내용 추가***
 
