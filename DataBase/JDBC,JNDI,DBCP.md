@@ -4,7 +4,7 @@
   - 객체 생성, 커넥션 연결, 커넥션종료 등을 반복하기때문에 효율성이 매우 떨어짐
   - 위와 같은 이유로 상용화된 어플리케이션에서는 JDBD 방식을 거의 사용하지 않는다
 
-#### JNDI ( Java Naming and Directory Interface)
+#### JNDI ( Java Naming  Directory Interface)
 
 - WAS 단에 데이터베이스 커넥션 객체를 미리 네이밍 해놓는 방식
   - DB 커넥션을 WAS ( Web Application Server ) 단에서 제어하며 서버에서 하나의 커넥션 풀을 가짐.
