@@ -16,16 +16,13 @@ type="org.apache.catalina.UserDatabase"/>
  <Resource name="JDNI이름" auth="Container"
 
 ​       driverClassName="oracle.jdbc.driver.OracleDriver"
-
 ​       factory="org.apache.tomcat.jdbc.pool.BasicDataSourceFactory"
-
 ​       type="javax.sql.DataSource"
-
 ​       url="jdbc:oracle:thin:@서버아이피:포트:SID이름"
-
 ​       username="사용자아이디"
-
-​       password="패스워드" />
+​       password="패스워드"
+        validationQuery="(Oracle)SELECT 1 FROM DUAL // (MySQL,MSSQL 등) SELECT 1 "
+       />
 
 
 
