@@ -1,4 +1,4 @@
-### Spring-Security 사용하기
+## Spring-Security 사용하기
 
 ### 1. pom.xml 추가
 ```
