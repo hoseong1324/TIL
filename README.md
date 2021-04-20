@@ -30,7 +30,7 @@
 * [Import](Script,Jquery,JSTL/Import.md) 
 * [Select Box - Jquery](Script,Jquery,JSTL/SelectBox-Jquery.md)
 * [변수선언](Script,Jquery,JSTL/변수선언.md)
-* [유효성검사](Script,Jquery,JSTL/유효성검사.md)
+* [유효성검사](Script,Jquery,JSTL/정규표현식_유효성검사.md)
 
 ### Spring
 * [ServletRequestUtils 사용](Spring/ServletRequestUtils.md)
