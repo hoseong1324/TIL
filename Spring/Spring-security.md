@@ -76,7 +76,7 @@ xmlns:beans="http://www.springframework.org/schema/beans"
 			<param-name>contextConfigLocation</param-name>
 			<param-value>/WEB-INF/spring/appServlet/servlet-context.xml</param-value>
 ```
-			#### <param-value>/WEB-INF/spring/spring-security.xml</param-value>
+			 <param-value>/WEB-INF/spring/spring-security.xml</param-value>
 ```
 		</init-param>
 		<load-on-startup>1</load-on-startup>
