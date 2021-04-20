@@ -48,7 +48,7 @@ xmlns:beans="http://www.springframework.org/schema/beans"
 
 ### 3. web.xml 에 servlet 읽는 소스에 spring-security.xml 을 읽을 수 있게 param-value 추가해주기 
 
-
+```
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -73,8 +73,9 @@ xmlns:beans="http://www.springframework.org/schema/beans"
 		<init-param>
 			<param-name>contextConfigLocation</param-name>
 			<param-value>/WEB-INF/spring/appServlet/servlet-context.xml</param-value>
+```
 			<param-value>/WEB-INF/spring/spring-security.xml</param-value>
-			
+```
 		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
@@ -85,6 +86,7 @@ xmlns:beans="http://www.springframework.org/schema/beans"
 	</servlet-mapping>
 
 </web-app>
+```
 
 
 
