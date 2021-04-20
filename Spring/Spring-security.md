@@ -47,9 +47,9 @@ xmlns:beans="http://www.springframework.org/schema/beans"
 
 
 ### 3. web.xml 에 servlet 읽는 소스에 spring-security.xml 을 읽을 수 있게 param-value 추가해주기 
-```
-   <param-value>/WEB-INF/spring/appServlet/spring-security.xml</param-value>
-```
+
+  ` <param-value>/WEB-INF/spring/appServlet/spring-security.xml</param-value>`
+
 
 
 ### 4. Class 또는 Method 내에서  PasswordEncoder Inject 또는 autowired 해주고 암호화시키기
