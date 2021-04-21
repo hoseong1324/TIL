@@ -1,6 +1,6 @@
 ### Math 함수
 
-##### import java.lang.Math;
+#### import java.lang.Math;
 
 * Math.random() 
   - Math.random() 만 사용하면 0이상 1미만의 double(실수) 값
