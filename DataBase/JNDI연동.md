@@ -14,7 +14,7 @@ type="org.apache.catalina.UserDatabase"/>
 ```
 ***이곳에 접근 DB 내용 추가***
 
- <Resource name="JDNI이름" auth="Container"
+ <Resource name="JNI이름" auth="Container"
 
 ​       driverClassName="oracle.jdbc.driver.OracleDriver"      
 ​       factory="org.apache.tomcat.jdbc.pool.BasicDataSourceFactory"    
