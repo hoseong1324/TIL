@@ -28,7 +28,8 @@
 
 double n = 12345.6789;  	 	
 
-System.out.println("\n ======= 숫자형식 변환의 DecimalFormat 클래스 ======= \n"); 	 	
+System.out.println("\n ======= 숫자형식 변환의 DecimalFormat 클래스 ======= \n"); 	 
+
 
 // 10진수 - 빈자리는 0으로 채움  	
 
@@ -36,23 +37,27 @@ DecimalFormat df = new DecimalFormat("0");
 
 System.out.println(df.format(n)); // 출력값 : 12346 	 	
 
+
 // 10진수 - 빈자리는 0으로 채움 	
 
 df = new DecimalFormat("0.0");  	
 
 System.out.println(df.format(n)); // 출력값 : 12345.7 	 	
 
+
 // 10진수 - 빈자리는 0으로 채움 	
 
 df = new DecimalFormat("000000.00000");  	
 
-System.out.println(df.format(n)); // 출력값 : 012345.67890 	 	
+System.out.println(df.format(n)); // 출력값 : 012345.67890 	
+
 
 // 10진수 - 빈자리는 채우지 않음 	
 
 df = new DecimalFormat("#");  	
 
-System.out.println(df.format(n)); // 출력값 : 12346 	 	
+System.out.println(df.format(n)); // 출력값 : 12346 	 
+
 
 // 10진수 - 빈자리는 채우지 않음 	
 
@@ -60,11 +65,13 @@ df = new DecimalFormat("######.###");
 
 System.out.println(df.format(n)); // 출력값 : 12345.679 	 	
 
+
 // 10진수 - # 0 조합 / 단위구분을 위한 , 추가 	
 
 df = new DecimalFormat("#,###.00000"); 	
 
-System.out.println(df.format(n)); // 출력값 : 12,345.67890 	 	
+System.out.println(df.format(n)); // 출력값 : 12,345.67890 	
+
 
 // 100을 곱한 후 문자에 % 붙임 	
 
