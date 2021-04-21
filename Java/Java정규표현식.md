@@ -12,11 +12,11 @@
 * 휴대전화번호 : ^01(?:0|1|[6-9])-(?:\d{3}|\d{4})-\d{4}$
 * 주민등록번호 : \d{6} \- [1-4]\d{6}
 * 우편번호 : ^\d{3}-\d{2}$
-* * *
 
-![image](https://user-images.githubusercontent.com/59944238/114512886-89fb0180-9c74-11eb-8d6d-a1b1f6f3b562.png)
+![image](https://user-images.githubusercontent.com/59944238/115501707-a4edf700-a2ae-11eb-8154-5790a55467b7.png)
 
-* * *
+
+
 ```
 import java.util.regex.Pattern;
 
