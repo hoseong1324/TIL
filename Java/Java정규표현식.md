@@ -14,8 +14,8 @@
 * 우편번호 : ^\d{3}-\d{2}$
 
 #### 파일 확장자 체크
-* txt,pdf,hwp,xls 파일만 허용 : ^\\S+.(?i)(txt|pdf|hwp|xls)$
-pattern.matchs(변수,변수) 이용하여 체크
+* txt,pdf,hwp,xls 파일만 허용 : ^\\S+.(?i)(txt|pdf|hwp|xls)$      
+* pattern.matchs(변수,변수) 이용하여 체크
 
 #### 풀이
 ```
@@ -28,7 +28,7 @@ pattern.matchs(변수,변수) 이용하여 체크
 $ : 끝
 ```
 #### 이중 확장자 체크
-확장자 tar.gz 인지 체크 : (.+?)((\\.tar)?\\.gz)$
+* 확장자 tar.gz 인지 체크 : (.+?)((\\.tar)?\\.gz)$
 
 
 
