@@ -13,8 +13,8 @@ pathname="conf/tomcat-users.xml"
 type="org.apache.catalina.UserDatabase"/>
 ```
 ***이곳에 접근 DB 내용 추가***
-
- <Resource name="JNI이름" auth="Container"
+```
+ <Resource name="JNDI이름" auth="Container"
 
 ​       driverClassName="oracle.jdbc.driver.OracleDriver"      
 ​       factory="org.apache.tomcat.jdbc.pool.BasicDataSourceFactory"    
@@ -24,7 +24,7 @@ type="org.apache.catalina.UserDatabase"/>
 ​       password="패스워드"    
 ​       validationQuery="(Oracle)SELECT 1 FROM DUAL // (MySQL,MSSQL 등) SELECT 1 "    
        />
-
+```
 
 
 factory 부분은
