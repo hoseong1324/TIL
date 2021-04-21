@@ -14,7 +14,7 @@
 * [Math](Java/Math.md)
 * [String, StringBuffer, StringBuilder 차이](Java/String,StringBuffer,StringBuilder.md)
 * [subString, 시간 Format](Java/SubString,시간Format.md)
-* [숫자 Format ( DecimalForamt )](Java/숫자Format.md)
+* [숫자 Format ( DecimalFormat )](Java/숫자Format.md)
 * [Annotation](Java/Annotation.md)
 * [기본 인/디코딩과 BASE64 인코딩, 디코딩/ 해결법](Java/Basic_Encoding_BASE64-Encoding.md)
 * [this, final](Java/this,final.md)
