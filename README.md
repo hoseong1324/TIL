@@ -12,7 +12,7 @@
 * [Java 정규화](Java/Java정규표현식.md)
 * [연산자](Java/연산자.md)
 * [String, StringBuffer, StringBuilder 차이](Java/String,StringBuffer,StringBuilder.md)
-* [subString, 현재시간 가져오기](Java/SubString,현재시간가져오기.md)
+* [subString, 시간 Format](Java/SubString,시간Format.md)
 * [Annotation](Java/Annotation.md)
 * [기본 인/디코딩과 BASE64 인코딩, 디코딩/ 해결법](Java/Basic_Encoding_BASE64-Encoding.md)
 * [this, final](Java/this,final.md)
