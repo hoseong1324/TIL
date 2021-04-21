@@ -18,7 +18,7 @@
 
 * HashMap에 데이터 넣기
 
-  map.put("key", "value");
+ ` map.put("key", "value");`
 
   put 키워드를 이용하여 앞부분은 key가 되는 이름, 뒷부분은 value가 되는 변수 또는 텍스트를 넣는다.      
 
@@ -94,10 +94,10 @@
 
   ​    }
  ```
+ 
+
 
   `출력값 : key, value `
-
-
 
 
 
