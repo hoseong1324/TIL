@@ -39,10 +39,10 @@ String time = format.format(format_time);
 ```
 
 #### 날짜형식
-yy-MM-dd = 21-04-21
-yyyy-MM-dd = 2021-04-21
-yyyy/MM/dd HH:mm:ss = 2021/04/21 14:54:25
-yyyy/MM/dd hh:mm:ss = 2021/04/21 pm 2:54:25
+* yy-MM-dd = 21-04-21
+* yyyy-MM-dd = 2021-04-21
+* yyyy/MM/dd HH:mm:ss = 2021/04/21 14:54:25
+* yyyy/MM/dd hh:mm:ss = 2021/04/21 pm 2:54:25
 
 
 ```
