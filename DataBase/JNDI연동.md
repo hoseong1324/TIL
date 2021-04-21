@@ -29,9 +29,9 @@ type="org.apache.catalina.UserDatabase"/>
 
 factory 부분은
 
-​     "org.apache.tomcat.jdbc.pool.BasicDataSourceFactory"        
+​    ` "org.apache.tomcat.jdbc.pool.BasicDataSourceFactory"     `   
 또는     
-​    "org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory"     
+​  `  "org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory"     `
 
 
 ```
