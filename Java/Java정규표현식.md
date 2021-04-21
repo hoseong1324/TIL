@@ -13,9 +13,26 @@
 * 주민등록번호 : \d{6} \- [1-4]\d{6}
 * 우편번호 : ^\d{3}-\d{2}$
 
+#### 파일 확장자 체크
+* txt,pdf,hwp,xls 파일만 허용 : ^\\S+.(?i)(txt|pdf|hwp|xls)$
+pattern.matchs(변수,변수) 이용하여 체크
+
+#### 풀이
+```
+^ : 시작
+\ : \ 가 왔기 때문에 다음에 올 문자는 특수문자로 취급하고 , \다음 특수문자고 오면 그 자체로 취급.
+\S : 공백 아닌 문자
++. : .이 반드시 한개는 와야한다.
+(?i) : 대소문자 구별하지 않음.
+(txt|pdf|hwp|xls) : txt 혹은 pdf 혹은 hwp 혹은 xls 만 허용. | 을 이용한 or 연산!
+$ : 끝
+```
+#### 이중 확장자 체크
+확장자 tar.gz 인지 체크 : (.+?)((\\.tar)?\\.gz)$
+
+
+
 ![image](https://user-images.githubusercontent.com/59944238/115501707-a4edf700-a2ae-11eb-8154-5790a55467b7.png)
-
-
 
 ```
 import java.util.regex.Pattern;
@@ -74,4 +91,7 @@ public class RegexExample {
 * group() : 매칭된 부분을 반환합니다.
 * group(int group) : 매칭된 부분중 group번 그룹핑 매칭부분 반환합니다. 
 * groupCount() : 패턴내 그룹핑한(괄호지정) 전체 갯수를 반환합니다
+
+
+
 
