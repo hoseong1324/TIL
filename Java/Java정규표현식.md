@@ -1,4 +1,5 @@
-*정규 표현식*
+### 비교를 하기위하여 임포트
+* import java.util.regex.Pattern;
 
 
 #### 자주 쓰이는 정규 표현식
