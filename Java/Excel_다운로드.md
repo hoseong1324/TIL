@@ -4,7 +4,7 @@
 
 * 엑셀 생성
 
-  Workbook wb = new XSSFWorkbook();
+  XSSFWorkbook wb = new XSSFWorkbook();
 
 * 시트 생성 및 시트 명 선언
 
