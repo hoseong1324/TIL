@@ -57,7 +57,7 @@
 		        String excel_name = "서비스";
 		        excel_name = URLEncoder.encode(excel_name,"UTF-8");
 		        response.setContentType("ms-vnd/excel");
-//		        response.setHeader("Content-Disposition", "attachment;filename=example.xls");
+		        response.setHeader("Content-Disposition", "attachment;filename=example.xls");
 		        response.setHeader("Content-Disposition", "attachment;filename="+excel_name+"_"+time+".xlsx");
 	     		```
 
