@@ -2,7 +2,7 @@
 
 ### 1. pom.xml 추가
 ```
-		  <!--스프링시큐리티 web 라이브러리-->                        
+	    <!--스프링시큐리티 web 라이브러리-->                        
 	    <dependency>
 	        <groupId>org.springframework.security</groupId>
 	        <artifactId>spring-security-web</artifactId>
