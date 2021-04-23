@@ -40,7 +40,7 @@
 
 
 
-### 3. web.xml 에 servlet 읽는 소스에 spring-security.xml 을 읽을 수 있게 param-value 추가해주기 
+### 3. web.xml 에 context 읽는 소스에 spring-security.xml 을 읽을 수 있게 param-value 추가해주기 
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -51,7 +51,10 @@
 	<!-- The definition of the Root Spring Container shared by all Servlets and Filters -->
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
-		<param-value>/WEB-INF/spring/root-context.xml</param-value>
+		<param-value>/WEB-INF/spring/root-context.xml
+		```
+		`/WEB-INF/spring/spring-security.xml</param-value>`
+		```
 		
 	</context-param>
 	
@@ -67,9 +70,7 @@
 		<init-param>
 			<param-name>contextConfigLocation</param-name>
 			<param-value>/WEB-INF/spring/appServlet/servlet-context.xml</param-value>
-```
-				<param-value>/WEB-INF/spring/spring-security.xml</param-value>
-```
+
 		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
