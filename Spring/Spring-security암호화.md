@@ -52,9 +52,9 @@
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
 		<param-value>/WEB-INF/spring/root-context.xml
-		```
+```
 		`/WEB-INF/spring/spring-security.xml</param-value>`
-		```
+```
 		
 	</context-param>
 	
