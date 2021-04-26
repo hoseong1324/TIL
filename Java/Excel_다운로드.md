@@ -35,8 +35,10 @@
    `CellStyle fontStyle = createCellStyle();`
    `Font font = wb.createFont();` 
    `cell.setCellStyle(fontStyle);`
-   
-   
+   // 폰트크기 설정
+   // 원하는 폰트크기의 X2 후 0을 붙여줍니다.
+   `font.setFontHeightInPoints((short)180);`     
+   `font.setFontName("맑은 고딕");`
  
 * 행, 행 갯수, 열 선언
   Row row = null;
