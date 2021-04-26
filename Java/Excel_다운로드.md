@@ -19,9 +19,9 @@
 	`cellStyle.setBorderRight(BorderStyle.THIN);`      
   
   // 왼쪽 정렬   
-   CellStyle leftCell = wb.createCellStyle();    
-   leftCell.setAlignment(HorizontalAlignment.LEFT);    
-   
+   `CellStyle leftCell = wb.createCellStyle();`   
+   `leftCell.setAlignment(HorizontalAlignment.LEFT); `   
+  
    // 오른쪽 정렬    
    `CellStyle leftCell = wb.createCellStyle(); `   
   ` rightCell.setAlignment(HorizontalAlignment.RIGHT);`
