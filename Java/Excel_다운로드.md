@@ -5,26 +5,26 @@
 * 엑셀 생성
 
   XSSFWorkbook wb = new XSSFWorkbook();
-
-* 시트 생성 및 시트 명 선언
-
-  Sheet sheet = wb.createSheet("엑셀 테스트");
-
-* 스타일 설정 
-  CellStyle style = wb.createCellStyle();
-  // 가는 경계선 선언
-   style.setBorderLeft(BorderStyle.THIN);
   
-  // 왼쪽 정렬
-   CellStyle leftCell = wb.createCellStyle();
-   leftCell.setAlignment(HorizontalAlignment.LEFT);
+* 시트 생성 및 시트 명 선언 
+
+  Sheet sheet = wb.createSheet("엑셀 테스트");   
+
+* 스타일 설정   
+  CellStyle style = wb.createCellStyle();      
+  // 가는 경계선 선언       
+   style.setBorderLeft(BorderStyle.THIN);    
+  
+  // 왼쪽 정렬   
+   CellStyle leftCell = wb.createCellStyle();    
+   leftCell.setAlignment(HorizontalAlignment.LEFT);    
    
-   // 오른쪽 정렬
-   CellStyle leftCell = wb.createCellStyle();
-   rightCell.setAlignment(HorizontalAlignment.RIGHT);
+   // 오른쪽 정렬    
+   CellStyle leftCell = wb.createCellStyle();    
+   rightCell.setAlignment(HorizontalAlignment.RIGHT);    
   
-  // 셀에 넣어주기
-  cell.setCellStyle(style);
+  // 셀에 넣어주기    
+  cell.setCellStyle(style);    
   
   
 * 폰트 설정
