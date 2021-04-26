@@ -10,8 +10,32 @@
 
   Sheet sheet = wb.createSheet("엑셀 테스트");
 
+* 스타일 설정 
+  CellStyle style = wb.createCellStyle();
+  // 가는 경계선 선언
+   style.setBorderLeft(BorderStyle.THIN);
+  
+  // 왼쪽 정렬
+   CellStyle leftCell = wb.createCellStyle();
+   leftCell.setAlignment(HorizontalAlignment.LEFT);
+   
+   // 오른쪽 정렬
+   CellStyle leftCell = wb.createCellStyle();
+   rightCell.setAlignment(HorizontalAlignment.RIGHT);
+  
+  // 셀에 넣어주기
+  cell.setCellStyle(style);
+  
+  
+* 폰트 설정
+   // 폰트 담을 스타일 생성
+   CellStyle fontStyle = createCellStyle();
+   Font font = wb.createFont(); 
+   cell.setCellStyle(fontStyle);
+   
+   
+ 
 * 행, 행 갯수, 열 선언
-
   Row row = null;
 
   Cell cell = null;
