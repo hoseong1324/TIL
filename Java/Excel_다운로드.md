@@ -4,34 +4,37 @@
 
 * 엑셀 생성
 
-  XSSFWorkbook wb = new XSSFWorkbook();
+ ` XSSFWorkbook wb = new XSSFWorkbook();`
   
 * 시트 생성 및 시트 명 선언 
 
-  Sheet sheet = wb.createSheet("엑셀 테스트");   
+  `Sheet sheet = wb.createSheet("엑셀 테스트");`   
 
 * 스타일 설정   
   CellStyle style = wb.createCellStyle();      
   // 가는 경계선 선언       
-   style.setBorderLeft(BorderStyle.THIN);    
+	`cellStyle.setBorderTop(BorderStyle.THIN);`    
+	`cellStyle.setBorderBottom(BorderStyle.THIN);`      
+	`cellStyle.setBorderLeft(BorderStyle.THIN);  `     
+	`cellStyle.setBorderRight(BorderStyle.THIN);`      
   
   // 왼쪽 정렬   
    CellStyle leftCell = wb.createCellStyle();    
    leftCell.setAlignment(HorizontalAlignment.LEFT);    
    
    // 오른쪽 정렬    
-   CellStyle leftCell = wb.createCellStyle();    
-   rightCell.setAlignment(HorizontalAlignment.RIGHT);    
+   `CellStyle leftCell = wb.createCellStyle(); `   
+  ` rightCell.setAlignment(HorizontalAlignment.RIGHT);`
   
   // 셀에 넣어주기    
-  cell.setCellStyle(style);    
+  `cell.setCellStyle(style);`    
   
   
 * 폰트 설정
    // 폰트 담을 스타일 생성
-   CellStyle fontStyle = createCellStyle();
-   Font font = wb.createFont(); 
-   cell.setCellStyle(fontStyle);
+   `CellStyle fontStyle = createCellStyle();`
+   `Font font = wb.createFont();` 
+   `cell.setCellStyle(fontStyle);`
    
    
  
