@@ -1,11 +1,26 @@
 ### Java 엑셀로 파일 다운로드
 
   
+* Pom.xml 의존성 추가
+```
+<!-- 엑셀 -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>4.1.2</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>4.1.2</version>
+</dependency>
+```
 
 * 엑셀 생성
 
  ` XSSFWorkbook wb = new XSSFWorkbook();`
-  
+  #### xls 확장자를 가진 엑셀 파일 -> HSSFWorkbook
+  #### xlsx 확장자를 가진 엑셀 파일 -> XSSFWorkbook
 * 시트 생성 및 시트 명 선언 
 
   `Sheet sheet = wb.createSheet("엑셀 테스트");`   
