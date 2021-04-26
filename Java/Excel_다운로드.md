@@ -10,6 +10,10 @@
 
   `Sheet sheet = wb.createSheet("엑셀 테스트");`   
 
+* 열 너비 설정
+  // 셀 열 너비 설정 < 1000 이 3.55 px
+		sheet.setColumnWidth(0, 2000);
+		sheet.setColumnWidth(1, 6000);
 * 스타일 설정   
   CellStyle style = wb.createCellStyle();      
   // 가는 경계선 선언       
@@ -25,7 +29,8 @@
    // 오른쪽 정렬    
    `CellStyle leftCell = wb.createCellStyle(); `   
   ` rightCell.setAlignment(HorizontalAlignment.RIGHT);`
-  
+  #### mergeRowStyle1.setAlignment(HorizontalAlignment.CENTER); ( 가로)
+  #### mergeRowStyle1.setVerticalAlignment(VerticalAlignment.CENTER); ( 세로 )
   // 셀에 넣어주기    
   `cell.setCellStyle(style);`    
   
