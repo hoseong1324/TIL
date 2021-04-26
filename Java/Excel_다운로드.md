@@ -29,8 +29,9 @@
    // 오른쪽 정렬    
    `CellStyle leftCell = wb.createCellStyle(); `   
   ` rightCell.setAlignment(HorizontalAlignment.RIGHT);`
-  #### mergeRowStyle1.setAlignment(HorizontalAlignment.CENTER); ( 가로)
-  #### mergeRowStyle1.setVerticalAlignment(VerticalAlignment.CENTER); ( 세로 )
+  
+  #### cellStyle.setAlignment(HorizontalAlignment.CENTER); ( 가로)
+  #### cellStyle.setVerticalAlignment(VerticalAlignment.CENTER); ( 세로 )
   // 셀에 넣어주기    
   `cell.setCellStyle(style);`    
   
