@@ -22,7 +22,7 @@ str.substring(3, 6);
 SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 ```
 #### 응용
-` Date date = format.parse(데이터);'     
+`Date date = format.parse(데이터);`     
 하면 String인 데이터를 Date 형으로 변환    
 출력하면      
 #### Mon Sep 02 08:10:55 KST 2019      
