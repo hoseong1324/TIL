@@ -95,10 +95,10 @@
 			
 			 
 		        // Style
-		        Style.setBorderTop(BorderStyle.THICK);
-		        Style.setBorderBottom(BorderStyle.THICK);
-		        Style.setBorderLeft(BorderStyle.THICK);
-		        Style.setBorderRight(BorderStyle.THICK);
+		        Style.setBorderTop(BorderStyle.THIN);
+		        Style.setBorderBottom(BorderStyle.THIN);
+		        Style.setBorderLeft(BorderStyle.THIN);
+		        Style.setBorderRight(BorderStyle.THIN);
 			
 			
 		        // 컨텐츠 타입과 파일명 지정
