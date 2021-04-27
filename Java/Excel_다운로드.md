@@ -111,5 +111,4 @@
 		        response.setHeader("Content-Disposition", "attachment;filename="+excel_name+"_"+time+".xlsx");
 	     		```
 
-#### 바빠서 대충 다음에 다시 정리
-#### 
+#### CellStyle에 여러가지의 스타일을 넣을 수 없기 때문에 그 상황에 맞춰서 셀 스타일에 넣어주고 표현한다.
