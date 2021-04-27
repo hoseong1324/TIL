@@ -21,6 +21,11 @@ str.substring(3, 6);
 ```
 SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 ```
+#### 응용
+` String RegDate = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(데이터);`      
+하면 가져온 데이터를 변환시켜서 스트링에 넣는다.
+
+
 * Date 이용
 ```
 Date time = new Date();
