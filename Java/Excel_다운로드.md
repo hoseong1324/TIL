@@ -55,6 +55,7 @@
    // 폰트 담을 스타일 생성      
    `CellStyle fontStyle = createCellStyle();`       
    `Font font = wb.createFont();`       
+   /// 셀에 셀스타일 넣어주기    
    `cell.setCellStyle(fontStyle);`      
    // 폰트크기 설정      
       
