@@ -69,9 +69,9 @@
   `int rowNum = 0;`     
 
 
-* 엑셀 쓰고 닫기
-		wb.write(response.getOutputStream());
-		wb.close();
+* 엑셀 쓰고 닫기      
+		`wb.write(response.getOutputStream());`     
+		`wb.close();`     
 
 ​		    		        
 
