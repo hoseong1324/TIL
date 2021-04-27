@@ -22,8 +22,13 @@ str.substring(3, 6);
 SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 ```
 #### 응용
-` String RegDate = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(데이터);`      
-하면 가져온 데이터를 변환시켜서 스트링에 넣는다.
+` Date date = format.parse(데이터);'     
+하면 String인 데이터를 Date 형으로 변환    
+출력하면      
+#### Mon Sep 02 08:10:55 KST 2019      
+처럼 나오는데 아래 처럼 다시한번 더 변환     
+` String RegDate = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(date);`      
+하면 가져온 데이터를 정해놓은 시간 형식으로 변환하여 String 으로 출력 가능
 
 
 * Date 이용
