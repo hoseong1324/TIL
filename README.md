@@ -3,7 +3,7 @@
 
 * * *
 ### Work_History
-* [History_ 늘려가자 ](work/history.md)
+* [History_ 늘려가자 ](ork/history.md)
 ### Eclipse
 * [validating (유효성 검사)시간소모](Eclipse/validating시간소모.md)
 * [tomcat time out 걸릴시](Eclipse/tomcat_timeout.md)
