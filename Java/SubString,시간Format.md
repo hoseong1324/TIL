@@ -78,4 +78,4 @@ Z	타임존					+0900
 z	타임존(RFC 822)				KST
 ```
 
-
+#### Oracle 에서 to_char 또는 to_date 를 통해서 시간변환을 할때 HH:mm:ss 에서 HH:MI:SS 로 작성한다
