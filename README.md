@@ -2,8 +2,7 @@
 ### Today I Learned 내가 진행한, 공부한 것들
 
 * * *
-### Work_History
-* [History_ 늘려가자 ](Work/history.md)
+
 ### Eclipse
 * [validating (유효성 검사)시간소모](Eclipse/validating시간소모.md)
 * [tomcat time out 걸릴시](Eclipse/tomcat_timeout.md)
