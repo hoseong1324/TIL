@@ -1,3 +1,6 @@
+### Import
+`<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>`
+
 ```
 <c:forEach var="test" items="{test}">
 <fmt:formatNumber value="${모델 값}" pattern="###,###,###"/>
