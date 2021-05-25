@@ -8,3 +8,4 @@ pom.xml 에
  	</dependency>
 ```
     추가
+#### appServlet 에러 떴을 때 Maven Dependency 추가 후에도 에러가 나면 java.xml.bindvalidationException 뜨면 추가
