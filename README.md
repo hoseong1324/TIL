@@ -41,6 +41,7 @@
 * [Select Box - Jquery](Script,Jquery,JSTL/SelectBox-Jquery.md)
 * [변수선언](Script,Jquery,JSTL/변수선언.md)
 * [ID/PW 유효성검사](Script,Jquery,JSTL/정규표현식_유효성검사.md)
+* [JSTL 패턴설정](Script,Jquery,JSTL/JSTL_숫자패턴설정.md)
 
 ### Spring
 * [ServletRequestUtils 사용](Spring/ServletRequestUtils.md)
