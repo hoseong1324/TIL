@@ -25,7 +25,6 @@
 * [Excel 다운로드](Java/Excel_다운로드.md)
 * [경고창 무시 어노테이션](Java/경고창무시_어노테이션.md)
 * [java.xml.bind not found 에러](Java/java.xml.bind_에러.md)
-* [다중 파일 업로드(MultipartHttpServletRequest)](Java/MultipartHttpServletRequest.md)
 
 ### DataBase
 * [동적쿼리](DataBase/동적쿼리.md)
@@ -50,6 +49,7 @@
 * [ServletRequestUtils 사용](Spring/ServletRequestUtils.md)
 * [StringUtils 사용](Spring/StringUtils.md)
 * [Spring-security 암호화](Spring/Spring-security암호화.md)
+* [다중 파일 업로드(MultipartHttpServletRequest)](Spring/MultipartHttpServletRequest.md)
 
 ### Front_Development
 * [node.js](Front_Development/node_js.md)
