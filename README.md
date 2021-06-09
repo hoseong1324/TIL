@@ -56,4 +56,4 @@
 * [vue.js](Front_Development/vue_js.md)
 
 ### Git
-* [Git 명령어](Git/명령.md)
+* [Git 명령어](Git/명령어.md)
