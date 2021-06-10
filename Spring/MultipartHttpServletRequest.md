@@ -23,18 +23,12 @@
 ```
 
 - Property type 속성 설정
- 
-#### maxUploadSize    
-##### long      
-최대 업로드 가능한 바이트 크기, -1은 제한이 없음을 의미한다. 기본 값은 -1이다.     
-#### maxInMemorysize     
-##### int    
-디스크에 임시 파일을 생성하기 전에 메모리에 보관할 수 있는 최대 바이트 크기,    
-기본 값은 10240 바이트이다.    
-#### defaultEncording     
-##### String    
-요청을 파싱할 때 사용할 캐릭터 인코딩, 지정하지 않은 경우 HttpServletRequest.setEncording() 메서드로 지정한 캐릭터셋이 사용된다.    
-아무 값도 없을 경우 ISO-8859-1을 사용한다.   
+```
+ Property              Type        Description 
+ maxUploadSize          Long       최대 업로드 가능한 바이트 크기, -1은 제한이 없음을 의미합니다. Default(-1)
+ maxInMemorySize        int       디스크에 임시 파일을 생성하기 전에 메모리에 보관할 수 있는 최대 바이트 크기, 기본 값은 10240 바이트입니다.
+ defaultEncording       String     요청을 파싱할 때 사용할 캐릭터 인코딩, 지정하지 않은 경우 HttpServletRequest.setEncording() 메서드로 지정한 캐릭터 셋이 사용됩니다. 아무 값도 없을 경                                    우 ISO-8859-1을 사용합니다.
+```
 
 
  
@@ -55,6 +49,7 @@
 ```
 
 ### 4. Controller 파람 값 설정
+- 단일파일
 ```
  @RequestMapping(value="hoddyFileUpload")
  public String hoddyFileUpload(multipartHttpServletRequest request){
@@ -81,6 +76,36 @@
         return "redirect:/";
  }
 ```
+- 다중파일
+```
+ @RequestMapping(value = "hoddyFileUpload")
+  public String hoddyFileUpload(multipartHttpServletRequest request) {
+        List<MultipartFile> fileList = request.getFiles("file");
+        String src = request.getParameter("src");
+        System.out.println("src value : " + src);
+
+        String path = "C:\\image\\";
+
+        for (MultipartFile multiFile : fileList) {
+            String originFileName = multiFile.getOriginalFilename(); // 원본 파일 명
+            long fileSize = multiFile.getSize(); // 파일 사이즈
+
+            System.out.println("originFileName : " + originFileName);
+            System.out.println("fileSize : " + fileSize);
+
+            String safeFile = path + System.currentTimeMillis() + originFileName;
+            try {
+                multiFile.transferTo(new File(safeFile));
+            } catch (IllegalStateException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            } catch (IOException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+        }
+```
+
 #### Controller 를 설정하면서 request.getFile("file") 이부분에서 getFile()은 단일파일이며, getFiles()는 다중파일이다.
 
 
