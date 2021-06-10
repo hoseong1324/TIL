@@ -4,7 +4,7 @@
 
 
 
-1. Pom.xml 설정
+### 1. Pom.xml 설정
 ```
 <!-- Commonfile upload  -->
   <dependency>
@@ -14,7 +14,7 @@
   </dependency>
 ```
 
-2. Servlet-context.xml 설정
+### 2. Servlet-context.xml 설정
 ```
  <beans:bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
     <beans:property name="maxUploadSize" value="200000000" />
@@ -24,21 +24,21 @@
 
 - Property type 속성 설정
  
-### maxUploadSize    
-#### long      
+#### maxUploadSize    
+##### long      
 최대 업로드 가능한 바이트 크기, -1은 제한이 없음을 의미한다. 기본 값은 -1이다.     
-### maxInMemorysize     
-#### int    
+#### maxInMemorysize     
+##### int    
 디스크에 임시 파일을 생성하기 전에 메모리에 보관할 수 있는 최대 바이트 크기,    
 기본 값은 10240 바이트이다.    
-### defaultEncording     
-#### String    
+#### defaultEncording     
+##### String    
 요청을 파싱할 때 사용할 캐릭터 인코딩, 지정하지 않은 경우 HttpServletRequest.setEncording() 메서드로 지정한 캐릭터셋이 사용된다.    
 아무 값도 없을 경우 ISO-8859-1을 사용한다.   
 
 
  
-3. jsp 또는 html  form 태그에 enctype="multipart/form-data 추가    
+### 3. jsp 또는 html  form 태그에 enctype="multipart/form-data 추가    
 - 단일파일 업로드시
 ```
 <form name="hoddyFileForm" action="fileUpload" method="post" enctype="multipart/form-data">
@@ -54,7 +54,7 @@
 </form>
 ```
 
-4. Controller 파람 값 설정
+### 4. Controller 파람 값 설정
 ```
  @RequestMapping(value="hoddyFileUpload")
  public String hoddyFileUpload(multipartHttpServletRequest request){
@@ -81,6 +81,6 @@
         return "redirect:/";
  }
 ```
-### Controller 를 설정하면서 request.getFile("file") 이부분에서 getFile()은 단일파일이며, getFiles()는 다중파일이다.
+#### Controller 를 설정하면서 request.getFile("file") 이부분에서 getFile()은 단일파일이며, getFiles()는 다중파일이다.
 
 
