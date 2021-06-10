@@ -47,7 +47,7 @@
   
 ##### `git stash pop`  -  마지막으로 임시저장한 작업코드 가져오기   
   
-##### `it branch — set-upstream-to=remote_path/branch_name`  -  git pull no tracking info 에러해결   
+##### `git branch — set-upstream-to=remote_path/branch_name`  -  git pull no tracking info 에러해결   
      
          
              
