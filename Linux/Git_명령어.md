@@ -50,7 +50,7 @@
 ##### `git branch — set-upstream-to=remote_path/branch_name`  -  git pull no tracking info 에러해결   
      
          
-             
+***              
 Git 처음 push 할때 설정해주어야하므로      
 `git push --set-upstream origin (branch name)`     
 을 해주어야한다
