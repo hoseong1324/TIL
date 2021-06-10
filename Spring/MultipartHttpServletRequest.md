@@ -25,9 +25,9 @@
 - Property type 속성 설정
 ```
  Property              Type        Description 
- maxUploadSize          Long       최대 업로드 가능한 바이트 크기, -1은 제한이 없음을 의미합니다. Default(-1)
- maxInMemorySize        int       디스크에 임시 파일을 생성하기 전에 메모리에 보관할 수 있는 최대 바이트 크기, 기본 값은 10240 바이트입니다.
- defaultEncording       String     요청을 파싱할 때 사용할 캐릭터 인코딩, 지정하지 않은 경우 HttpServletRequest.setEncording() 메서드로 지정한 캐릭터 셋이 사용됩니다. 아무 값도 없을 경                                    우 ISO-8859-1을 사용합니다.
+ maxUploadSize          Long       최대 업로드 가능한 바이트 크기, -1은 제한이 없음을 의미. Default(-1)
+ maxInMemorySize        int        디스크에 임시 파일을 생성하기 전에 메모리에 보관할 수 있는 최대 바이트 크기, 기본 값은 10240 바이트.
+ defaultEncording       String     요청을 파싱할 때 사용할 캐릭터 인코딩, 지정하지 않은 경우 HttpServletRequest.setEncording() 메서드로 지정한 캐릭터 셋이 사용됨. 기본값 ISO-8859-1을 사용.
 ```
 
 
