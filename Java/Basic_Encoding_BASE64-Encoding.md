@@ -53,6 +53,15 @@ System.out.println(decoder.decode(test));
 
 
 #### 해결방안 1
+pom.xml 
+```
+<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>1.10</version>
+		</dependency>
+```
+  
 - import org.apache.commons.codec.binary.Base64;
 ```
 byte[] encodedBytes = Base64.encodeBase64("Test".getBytes());
