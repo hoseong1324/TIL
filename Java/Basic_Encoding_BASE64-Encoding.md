@@ -55,7 +55,7 @@ System.out.println(decoder.decode(test));
 #### 해결방안 1
 pom.xml 
 ```
-<dependency>
+		<dependency>
 			<groupId>commons-codec</groupId>
 			<artifactId>commons-codec</artifactId>
 			<version>1.10</version>
