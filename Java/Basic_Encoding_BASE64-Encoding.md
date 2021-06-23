@@ -79,3 +79,14 @@ System.out.println("encodedBytes " + new String(encodedBytes));
 byte[] decodedBytes = Base64.getDecoder().decode(encodedBytes);
 System.out.println("decodedBytes " + new String(decodedBytes));
 ```
+
+
+### 공통코드 
+```
+String Base64Binary = "";
+		
+		byte[] Byte = testFile.getBytes();
+		Base64Binary = new String(Base64.encodeBase64(Byte));
+		
+		return Base64Binary;
+```
