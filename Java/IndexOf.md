@@ -1,4 +1,4 @@
-#### IndexOf/ firstIndexOf/ lastIndexOf
+### IndexOf/ firstIndexOf/ lastIndexOf
 
 IndexOf("text",시작할 위치) - 문구 그대로 지정한 위치부터 문자를 비교하여 인덱스 값을 리턴
 
