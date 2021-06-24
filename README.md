@@ -25,7 +25,7 @@
 * [Excel 다운로드](Java/Excel_다운로드.md)
 * [경고창 무시 어노테이션](Java/경고창무시_어노테이션.md)
 * [java.xml.bind not found 에러](Java/java.xml.bind_에러.md)
-* [File Download](Java/file_download.md)
+* [File 객체](Java/file.md)
 * [IndexOf](Java/IndexOf.md)
 
 ### DataBase
