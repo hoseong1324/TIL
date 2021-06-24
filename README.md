@@ -26,6 +26,7 @@
 * [경고창 무시 어노테이션](Java/경고창무시_어노테이션.md)
 * [java.xml.bind not found 에러](Java/java.xml.bind_에러.md)
 * [File Download](Java/file_download.md)
+* [IndexOf](Java/IndexOf.md)
 
 ### DataBase
 * [동적쿼리](DataBase/동적쿼리.md)
