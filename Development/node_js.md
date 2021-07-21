@@ -6,3 +6,5 @@ Node.js 는 서버사이드 자바스크립트이며 구글의 자바스크립�
 브라우저 없이 돌아갈 수 있게 자체 엔진이라고 생각하면 됨   
 
 * 추가예정
+
+https://javafa.gitbooks.io/nodejs_server_basic/content/chapter4.html 공부
