@@ -35,7 +35,7 @@
       <param name="class" value="java.util.Date"/>
     </create>
     <create creator="new" javascript="Demo">
-      <param name="class" value="your.java.Bean"/>
+      <param name="class" value="[패키지명.클래스]"/>
     </create>
   </allow>
 </dwr>
