@@ -1,6 +1,6 @@
 ```
 MySql - Date_format()
-Oracl - To_char()
+Oracle - To_char()
 
 Datetime = 
 %k = 24시간제 < mysql >
