@@ -47,6 +47,7 @@
 * [JSTL 패턴설정](Script,Jquery,JSTL/JSTL_숫자패턴설정.md)
 * [퍼센트인코딩(특수문자)](Script,Jquery,JSTL/percent-Encoding.md)
 * [빈 값체크](Script,Jquery,JSTL/isObjEmpty.md)
+* [Ajax-DWR 사용](Script,Jquery,JSTL/DWR.md)
 
 ### Spring
 * [ServletRequestUtils 사용](Spring/ServletRequestUtils.md)
