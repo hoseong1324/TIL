@@ -2,7 +2,7 @@
 
 ##### 사용법
 
-- dwr.jar 또는 dwr.war 파일 다운로드 후 lib 에 추가
+- dwr.jar 또는 dwr.war 파일 다운로드 후 톰캣설치폴더/lib 에 추가
 
 - web.xml 코드 추가
 
@@ -23,7 +23,7 @@
   </servlet-mapping>
   ```
 
-- dwr.xml 생성 후 코드 추가
+- web.xml 과 같은 위치에 dwr.xml 생성 후 코드 추가
 
 ```
 <!DOCTYPE dwr PUBLIC
@@ -45,4 +45,5 @@
 ```
   <script src='/[YOUR-WEBAPP]/dwr/interface/[YOUR-SCRIPT].js'></script>  
   <script src='/[YOUR-WEBAPP]/dwr/engine.js'></script>
+  <script src='/[YOUR-WEBAPP]/dwr/util.js'></script>
 ```
