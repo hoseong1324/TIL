@@ -41,6 +41,7 @@
 </dwr>
 ```
 
+
 - view 파일내에 코드 추가
 ```
   <script src='/[YOUR-WEBAPP]/dwr/interface/[YOUR-SCRIPT].js'></script>  
