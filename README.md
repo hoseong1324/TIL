@@ -67,4 +67,4 @@
 * [RESTful](API/RESTful.md)
 
 ### CI/CD 
-* [GitLab_파이프라인](GitLab_Pipeline.md)
+* [GitLab_파이프라인](CI,CD/GitLab_Pipeline.md)
