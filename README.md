@@ -7,7 +7,7 @@
 * [validating (유효성 검사)시간소모](Eclipse/validating시간소모.md)
 * [tomcat time out 걸릴시](Eclipse/tomcat_timeout.md)
 * [JPA Project Change Event Handler로 인해 이클립스 멈췄을 시](Eclipse/JPA_Project_Change_Event_Handler.md)
-* [populate_auto_detected_configs로 인해 이클림스 멈출 시](Eclipse/populate_auto_detected_configs.md)
+* [populate_auto_detected_configs로 인해 이클립스 멈출 시](Eclipse/populate_auto_detected_configs.md)
 
 ### Java
 * [Java 정규표현식](Java/Java정규표현식.md)
