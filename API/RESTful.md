@@ -23,13 +23,13 @@ HTTP 메소드를 통해 자원 조작 (CRUD 가능)
 메시지가 스스로를 설명 해야한다.     
 목적지가 있아여 한다.      
 ##### hypermedia as the engine of application state (HATEOAS) //[HATEOAS란?](https://github.com/hoseong1324/TIL/blob/main/API/HATEOAS.md)          
-##### (애플리케이션 상태의 엔진으로서의 하이퍼미디어)            
-애플리케이션의 상태가 Hyperlink 를 통해서 전송되어야한다.     
-다음 상태를 링크로 표시해야한다.     
+##### (애플리케이션 상태의 엔진으로서의 하이퍼미디어)     
+애플리케이션의 상태가 Hyperlink 를 통해서 전송되어야한다.다음 상태를 링크로 표시해야한다.
+
 ---
 하지만 Uniform Interface 은 만족하는 것도 있고 만족 하지 않는 것도 있다.                      
 
-
+   
 
 
 ### REST 를 보다 RESTful하게 만들자
