@@ -1,23 +1,18 @@
 ### REST 제약조건
----
+
 - 1.Client -server
-// 서버와 클라이언트를 가져야 한다.
----
-- 2.Stateless
-// 상태를 가지면 안된다.
----
-- 3.Cacheable
-// 캐시를 가져야 한다.
----
-- 4.Layerd system
-// 레이어드 시스템 이어야 한다.
----
-- 5.code-on-demand (optional)
-// 서버에서 코드를 클라이언트에게보내서 실행 가능해야한다. (js)
-##### 위의 조건들은 HTTP 통신을 이용하면 자동으로 만족한다.
----
-- 6.uniform interface(균일한 인터페이스)   
-// HTTP 통신을 하면 만족하는 것       
+// 서버와 클라이언트를 가져야 한다.     
+- 2.Stateless         
+// 상태를 가지면 안된다.          
+- 3.Cacheable           
+// 캐시를 가져야 한다.                  
+- 4.Layerd system        
+// 레이어드 시스템 이어야 한다.          
+- 5.code-on-demand (optional)              
+// 서버에서 코드를 클라이언트에게보내서 실행 가능해야한다. (js)          
+##### 위의 조건들은 HTTP 통신을 이용하면 자동으로 만족한다.               
+- 6.uniform interface(균일한 인터페이스)               
+// HTTP 통신을 하면 만족하는 것                 
 ##### identifcation of resources(자원 식별)   
 // 자원으로 식별 할 수 있어야한다.
 //URI 를 통한 식별
@@ -32,10 +27,10 @@ HTTP 메소드를 통해 자원 조작 (CRUD 가능)
 ##### (애플리케이션 상태의 엔진으로서의 하이퍼미디어)     
 애플리케이션의 상태가 Hyperlink 를 통해서 전송되어야한다.다음 상태를 링크로 표시해야한다.
 
----
+
 하지만 Uniform Interface 은 만족하는 것도 있고 만족 하지 않는 것도 있다.                      
 
-   
+---   
 
 
 ### REST 를 보다 RESTful하게 만들자
