@@ -1,15 +1,21 @@
 ### REST 제약조건
+---
 - 1.Client -server
 // 서버와 클라이언트를 가져야 한다.
+---
 - 2.Stateless
 // 상태를 가지면 안된다.
+---
 - 3.Cacheable
 // 캐시를 가져야 한다.
+---
 - 4.Layerd system
 // 레이어드 시스템 이어야 한다.
+---
 - 5.code-on-demand (optional)
 // 서버에서 코드를 클라이언트에게보내서 실행 가능해야한다. (js)
 ##### 위의 조건들은 HTTP 통신을 이용하면 자동으로 만족한다.
+---
 - 6.uniform interface(균일한 인터페이스)   
 // HTTP 통신을 하면 만족하는 것       
 ##### identifcation of resources(자원 식별)   
