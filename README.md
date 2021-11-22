@@ -64,7 +64,9 @@
 * [Git 명령어](Linux/Git_명령어.md)
 * [Linux 명령어](Linux/Linux_명령어.md)
 ### API
+* [API](API/API.md)
 * [RESTful](API/RESTful.md)
+* [HATEOAS(헤이티오스)](API/HATEOAS.md)
 
 ### CI/CD 
 * [GitLab_파이프라인](CI,CD/GitLab_Pipeline.md)
