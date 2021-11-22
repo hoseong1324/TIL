@@ -95,7 +95,7 @@ public class SwaggerConfig {
     }
 }
 ```
-### 4.@ApiModelProperty Annotation으로 해당 파라미터에 대한 example 값 추가
+### 4.VO 또는 DTO 에 @ApiModelProperty Annotation으로 해당 파라미터에 대한 example 값 추가
 ```
 @Data
 public class LoginReq {
