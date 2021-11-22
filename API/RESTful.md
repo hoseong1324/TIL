@@ -1,6 +1,6 @@
 ### REST 제약조건
 
-- 1.Client -server
+- 1.Client -server      
 // 서버와 클라이언트를 가져야 한다.     
 - 2.Stateless         
 // 상태를 가지면 안된다.          
