@@ -5,8 +5,9 @@
 - 2.Stateless         
 // 상태를 가지면 안된다.  
  ##### Stateless - client와 server의 동작, 상태정보를 저장하지 않는 형태
-- 3.Cacheable           
-// 클라이언트는 응답을 캐싱 할 수 있다.               
+- 3.Cacheable                
+// 요청에 대한 응답 내의 데이터에 해당 요청은 캐시가 가능한지 불가능 한지 명시해야 한다.            
+// 보통 HTTP Header에 cache-control 헤더를 이용한다.
 - 4.Layerd system        
 // 레이어드 시스템 이어야 한다.     
 API 서버는 순수 비지니스 로직을 수행 한다.     
