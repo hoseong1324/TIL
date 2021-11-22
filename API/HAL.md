@@ -35,3 +35,7 @@
  - "_links"가 링크 정보를 갖는다.
 
  - "self", "next"는 링크의 이름(rel, relation)이다.
+
+
+### HAL_json_VALUE 를 사용할 때
+ContentType(MediaTypes.HAL_JSON_VALUE)
