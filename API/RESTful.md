@@ -3,7 +3,7 @@
 - 1.Client -server      
 // 서버와 클라이언트를 가져야 한다.     
 - 2.Stateless
-- #### Stateless - client와 server의 동작, 상태정보를 저장하지 않는 형태         
+ ##### Stateless - client와 server의 동작, 상태정보를 저장하지 않는 형태         
 // 상태를 가지면 안된다.          
 - 3.Cacheable           
 // 클라이언트는 응답을 캐싱 할 수 있다.               
