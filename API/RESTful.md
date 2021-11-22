@@ -2,14 +2,18 @@
 
 - 1.Client -server      
 // 서버와 클라이언트를 가져야 한다.     
-- 2.Stateless         
+- 2.Stateless
+- #### Stateless - client와 server의 동작, 상태정보를 저장하지 않는 형태         
 // 상태를 가지면 안된다.          
 - 3.Cacheable           
-// 캐시를 가져야 한다.                  
+// 클라이언트는 응답을 캐싱 할 수 있다.               
 - 4.Layerd system        
-// 레이어드 시스템 이어야 한다.          
-- 5.code-on-demand (optional)              
-// 서버에서 코드를 클라이언트에게보내서 실행 가능해야한다. (js)          
+// 레이어드 시스템 이어야 한다.     
+API 서버는 순수 비지니스 로직을 수행 한다.     
+클라이언트는 대상 서버에 직접 연결되었는지, 또는 중간 서버를 통해 연결되었는지 인지 할 수 없다.        
+- 5.code-on-demand (optional)(주문형 코드)               
+// 서버에서 코드를 클라이언트에게보내서 실행 가능해야한다. (js)    
+//  code on demand라는 것은 client에 보내는 데이터를 바로 실행 가능한 코드를 보내서 이것을 Client에서 실행하는 것
 ##### 위의 조건들은 HTTP 통신을 이용하면 자동으로 만족한다.               
 - 6.uniform interface(균일한 인터페이스)               
 // HTTP 통신을 하면 만족하는 것                 
