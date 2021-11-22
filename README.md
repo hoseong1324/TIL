@@ -55,6 +55,7 @@
 * [StringUtils 사용](Spring/StringUtils.md)
 * [Spring-security 암호화](Spring/Spring-security암호화.md)
 * [다중 파일 업로드(MultipartHttpServletRequest)](Spring/MultipartHttpServletRequest.md)
+* [HAL(Hypertext Application Language)이란?](Spring/HAL.md)
 
 ### Development
 * [node.js](Development/node_js.md)
