@@ -1,3 +1,7 @@
+  /// feign client Bean 중복에러    
+apllication.yaml 추가      
+spring.main.allow-bean-definition-overriding : true    
+
 ### 1. 라이브러리 사용 디펜던시 작성
 #### maven 일 경우
 - pom.xml에 다음과 같이 작성해줍니다.
