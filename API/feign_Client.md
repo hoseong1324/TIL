@@ -27,13 +27,13 @@ dependencies {
 
 ### 2.Application.java 파일 작성
 Application.java 파일에 @EnableFeignClients annotation을 작성해서 Feign Client를 사용할 것임을 알려줍니다.
-
+```
 package com.example.feignTest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.openfeign.EnableFeignClients;
-```
+
 @EnableFeignClients // Feign Client를 사용할 것임을 알려줍니다.
 @SpringBootApplication
 public class FeignTestApplication {
