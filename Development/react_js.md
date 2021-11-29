@@ -7,6 +7,6 @@
 Class라는 단어가 EMCAScript6(ES6)의 클래서 문법과 겹치는 예약어이므로 className이라는 단어를 사용한다      
 - 마찬가지로 루프문 예약어와 겹치는 for문은 htmlFor로 사용한다.
 - 요소에서 이벤트를 핸들링하는 onclick등의 단어들은 onClick처럼 카멜표기법으로 작성해야함.
-- 기존 HTML 주석은 <!-- 주석 --> 이렇게 하지만 JSX에서는 `{/* 주석 */}` 으로 표현한다.
+- 기존 HTML 주석은 `<!-- 주석 -->` 이렇게 하지만 JSX에서는 `{/* 주석 */}` 으로 표현한다.
 - HTML Custom-Element 는 <my-element> 와 표기하였지만, React에서는 <MyElement/> 와 같이 Pascal Case로 표기한다.  닫는 태그에는 꼭 명시적으로 /> 표기를 해준다.
 - JSX 내에서도 JS를 사용할 수 있다 {}로 불러옴. {console.log{this.props}} 와 같은 식이다
