@@ -62,6 +62,7 @@
 * [node.js](Development/node_js.md)
 * [vue.js](Development/vue_js.md)
 * [React.js](Development/react_js.md)
+* [표기법](Development/표기법.md)
 
 ### Linux
 * [Git 명령어](Linux/Git_명령어.md)
