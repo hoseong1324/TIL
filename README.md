@@ -50,6 +50,7 @@
 * [빈 값체크](Script,Jquery,JSTL/isObjEmpty.md)
 * [Ajax-DWR 사용](Script,Jquery,JSTL/DWR.md)
 * [AJAX](Script,Jquery,JSTL/AJAX.md)
+* [not_is_function_Error](Script,Jquery,JSTL/not_is_function_Error.md)
 
 ### Spring
 * [ServletRequestUtils 사용](Spring/ServletRequestUtils.md)
