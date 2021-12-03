@@ -30,4 +30,5 @@ return a+b;
 /// output Error : TS2345 Argument of type '"10"' is not assignable to parameter of type 'number'.
 ```
 
-이와 같이 타입을 명시함으로 인해 확실한 오류 확인이 가능하다.
+이처럼 TypeScript는 정적 타입을 지원하므로 컴파일 단계에서 오류를 포착할 수 있는 장점이 있습니다.      
+명시적인 정적 타입 지정은 개발자의 의도를 명확하게 코드로 기술할 수 있고 이는 코드의 가독성을 높이고 예측할 수 있게 하며 디버깅을 쉽게한다.
