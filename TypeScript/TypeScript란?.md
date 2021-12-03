@@ -3,8 +3,8 @@
 - JavaScript 에 타입을 추가한 언어 ( 자바스크립트의 확장 언어 ) 
 
 
-JavaScript 와의 차이 
-### ex
+##### JavaScript 와의 차이 
+### ex)
 #### JavaScript
 ```
 function test(a + b){
