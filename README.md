@@ -52,6 +52,8 @@
 * [AJAX](Script,Jquery,JSTL/AJAX.md)
 * [not_is_function_Error](Script,Jquery,JSTL/not_is_function_Error.md)
 
+### TypeScript
+* [TypeScript란?](TypeScript/TypeScript란?.md)
 ### Spring
 * [ServletRequestUtils 사용](Spring/ServletRequestUtils.md)
 * [StringUtils 사용](Spring/StringUtils.md)
