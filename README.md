@@ -54,6 +54,7 @@
 
 ### TypeScript
 * [TypeScript란?](TypeScript/TypeScript란?.md)
+* [기본 타입](TypeScript/기본타입.md)
 ### Spring
 * [ServletRequestUtils 사용](Spring/ServletRequestUtils.md)
 * [StringUtils 사용](Spring/StringUtils.md)
