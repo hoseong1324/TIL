@@ -1,3 +1,5 @@
+https://joshua1988.github.io/ts/intro.html
+
 ### TypeScript란 ?
 - 동적 타입 언어인 JavaScript 의 타입안정성을 보완하기위해 나온 정적 타입 언어이다.
 - JavaScript 에 타입을 추가한 언어 ( 자바스크립트의 확장 언어 ) 
