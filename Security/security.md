@@ -1,20 +1,20 @@
-#### HTTP(HyperText Transfer Protocol)
+### HTTP(HyperText Transfer Protocol)
 HyperText 인 HTML 을 전송하기 위한 통신 규약     
 데이터가 암호화되지 않은 상태로 전송되기 때문에 보안에 취약     
 
-#### HTTPS(HyperText Transfer Protocol Secure)
+### HTTPS(HyperText Transfer Protocol Secure)
 HyperText 인 HTML 을 전송하기 위한 통신 규약에     
 데이터를 암호화하여 전송하는 것    
 HTTPS는 SSL을 기반으로 돌아가는 프로토콜중 하나이다
 데이터가 암호화되어 있기 때문에 해킹을 당하더라도 데이터 내용을 해커가 알 수 없다.
 
-#### SSO(Single Sign On)
+### SSO(Single Sign On)
 Single Sign-On의 약자로 여러 개의 사이트에서 한번의 로그인으로 여러가지 다른 사이트들을 자동적으로 접속하여 이용하는 방법을 말함.        
 일반적으로 서로 다른 시스템 및 사이트에서 각각의 사용자 정보를 관리하게 되는데, 필요에 따라서 사용자 정보를 연동하여 사용해야 하는 경우도 생기게 되는데             
 이 때, 하나의 사용자 정보를 기반으로 여러 시스템을 하나의 통합 인증을 사용하게 하는 것을 말합니다.         
 즉 하나의 시스템에서 인증을 할 경우 타 시스템에서는 인증 정보가 있는지 확인하고 있으면, 로그인 처리를 하도록 하고, 없는 경우, 다시 통합 인증을 할 수 있도록 만드는 것을 의미함    
 
-#### SSL(Secure Sockets Layer) 현재 TLS(Transport Layer Security)
+### SSL(Secure Sockets Layer) 현재 TLS(Transport Layer Security)
 
 SSL은 암호규악이다.
 ( 영어: Transport Layer Security, TLS )
@@ -30,5 +30,5 @@ SSL 인증서란 클라이언트와 서버간의 통신을 제 3자가 보증을
 클라이언트가 서버에 접속하면 서버는 클라이언트에게 인증서를 전달한다.      
 그러면 클라이언트는 이 인증서를 보고 신뢰할 수 있는 사람인지 확인 후 데이터를 보내는 등 다음 절차를 수행하게 된다. 
 
-#### SSH(Secure Shell)
+### SSH(Secure Shell)
 SSH(Secure Shell)는 원격지 호스트 컴퓨터에 접속하기 위해 사용되는 인터넷 프로토콜이다
