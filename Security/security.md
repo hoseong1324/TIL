@@ -1,3 +1,12 @@
+#### HTTP(HyperText Transfer Protocol)
+HyperText 인 HTML 을 전송하기 위한 통신 규약     
+데이터가 암호화되지 않은 상태로 전송되기 때문에 보안에 취약     
+
+#### HTTPS(HyperText Transfer Protocol Secure)
+HyperText 인 HTML 을 전송하기 위한 통신 규약에     
+데이터를 암호화하여 전송하는 것    
+HTTPS는 SSL을 기반으로 돌아가는 프로토콜중 하나이다.
+
 #### SSO(Single Sign On)
 Single Sign-On의 약자로 여러 개의 사이트에서 한번의 로그인으로 여러가지 다른 사이트들을 자동적으로 접속하여 이용하는 방법을 말함.        
 일반적으로 서로 다른 시스템 및 사이트에서 각각의 사용자 정보를 관리하게 되는데, 필요에 따라서 사용자 정보를 연동하여 사용해야 하는 경우도 생기게 되는데             
@@ -5,6 +14,6 @@ Single Sign-On의 약자로 여러 개의 사이트에서 한번의 로그인으
 즉 하나의 시스템에서 인증을 할 경우 타 시스템에서는 인증 정보가 있는지 확인하고 있으면, 로그인 처리를 하도록 하고, 없는 경우, 다시 통합 인증을 할 수 있도록 만드는 것을 의미함    
 
 
-#### SSL(Secure Socket Layer)
+#### SSL(Secure Sockets Layer)
 
 #### SSH(Secure Shell)
