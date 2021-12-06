@@ -5,7 +5,8 @@ HyperText 인 HTML 을 전송하기 위한 통신 규약
 #### HTTPS(HyperText Transfer Protocol Secure)
 HyperText 인 HTML 을 전송하기 위한 통신 규약에     
 데이터를 암호화하여 전송하는 것    
-HTTPS는 SSL을 기반으로 돌아가는 프로토콜중 하나이다.
+HTTPS는 SSL을 기반으로 돌아가는 프로토콜중 하나이다
+데이터가 암호화되어 있기 때문에 해킹을 당하더라도 데이터 내용을 해커가 알 수 없다.
 
 #### SSO(Single Sign On)
 Single Sign-On의 약자로 여러 개의 사이트에서 한번의 로그인으로 여러가지 다른 사이트들을 자동적으로 접속하여 이용하는 방법을 말함.        
