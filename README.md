@@ -81,5 +81,5 @@
 ### CI/CD 
 * [GitLab_파이프라인](CI,CD/GitLab_Pipeline.md)
 
-### 인증
-* [SSO/SSL/SSH](인증/SSO_SSL_SSH.md)
+### Security
+* [보안](Security/security.md)
