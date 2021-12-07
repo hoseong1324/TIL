@@ -74,3 +74,10 @@ function App() {
 위 처럼 컴포넌트에 프로퍼티로 전달 된 것들은 props.name 으로 가져올 수 있다.        
 props를 활용할 때 div 안에 묶여있는 것은 묶인 값으로 꺼내어 재사용 할 수 있도록 사용하는 것이 좋다     
 props는 읽기전용이므로 수정하려고 하면 에러가 발생한다      
+
+#### 클래스 컴포넌트 사용하기
+`import React, {extends 명} from "react";`
+다 작성한 후 가장 밑에    
+`export default Class명;`    
+App.js 파일에 
+`import Class명 from '위치';`
