@@ -66,6 +66,8 @@ function App() {
                <Proro name = {'react'}/>
                <Proro name = {'test'}/>
                <Proro name = {'what'}/>
+          </header>
+    </div>
               )
          }
 ```
