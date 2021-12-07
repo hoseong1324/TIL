@@ -29,3 +29,5 @@ cmd창을 열어 리액트를 사용하기위헤 프로젝트를 생성한다
 npm install (-g) create-react-app
 create-react-app 프로젝트이름
 ```
+프로젝트 폴더로 이동한 후      
+npm start 로 시작한다
