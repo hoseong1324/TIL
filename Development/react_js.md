@@ -29,5 +29,9 @@ cmd창을 열어 리액트를 사용하기위헤 프로젝트를 생성한다
 npm install (-g) create-react-app
 create-react-app 프로젝트이름
 ```
-프로젝트 폴더로 이동한 후      
-npm start 로 시작한다
+프로젝트 폴더로 이동한 후                 
+npm start 로 시작한다           
+난 VScode 사용             
+에디터 이용하여 생성한 폴더 오픈 후 src-App.js 파일에서 수정하여 localhost:3000 에 변경되는지 확인( 저장 시 바로 변경 )
+
+
