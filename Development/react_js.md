@@ -35,3 +35,40 @@ npm start 로 시작한다
 에디터 이용하여 생성한 폴더 오픈 후 src-App.js 파일에서 수정하여 localhost:3000 에 변경되는지 확인( 저장 시 바로 변경 )
 
 
+### 컴포넌트 사용
+```
+function Welcome(props) {
+  return <h1>Hello, {props.name}</h1>;
+}
+```
+위의 함수는 엘리먼트를 return 하기때문에 컴포넌트이고, 함수로 정의되었기 때문에 함수 컴포넌트라고 한다.
+```
+class Welcome extends React.Component {
+  render() {
+    return <h1>Hello, {this.props.name}</h1>;
+  }
+}
+```
+위는 클래스로 정의하는 방법이다.
+#### 컴포넌트는 항상 대문자로 시작되어야 한다.
+
+### props 사용하기
+```
+function PropsTest(props){
+  return <div>"this " + {props.name}</div>
+  }
+  
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+               <Proro name = {'react'}/>
+               <Proro name = {'test'}/>
+               <Proro name = {'what'}/>
+              )
+         }
+```
+위 처럼 컴포넌트에 프로퍼티로 전달 된 것들은 props.name 으로 가져올 수 있다.        
+props를 활용할 때 div 안에 묶여있는 것은 묶인 값으로 꺼내어 재사용 할 수 있도록 사용하는 것이 좋다     
+props는 읽기전용이므로 수정하려고 하면 에러가 발생한다      
