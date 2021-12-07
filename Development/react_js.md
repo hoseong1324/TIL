@@ -75,6 +75,20 @@ function App() {
 props를 활용할 때 div 안에 묶여있는 것은 묶인 값으로 꺼내어 재사용 할 수 있도록 사용하는 것이 좋다     
 props는 읽기전용이므로 수정하려고 하면 에러가 발생한다      
 
+### State 사용하기
+[출처](https://dev-pengun.tistory.com/entry/React-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EA%B8%B0%EC%B4%88-%EB%B0%B0%EC%9A%B0%EA%B8%B0-4-State-%EC%99%80-%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0?category=913270)
+```
+    constructor(props) {
+        super(props);
+        this.state = {
+            date : new Date()
+        };
+    }
+```
+date라는 state를 만들었고, 초기값은 생성된 당시의 시간을 담고있는 date객체임
+이제 this.state.date로 date에 접근할 수 있다.      
+`this.state.date.toLocaleTimeString()`    
+ date에는 date객체가 들어가 있기 때문에 date객체 내장 함수인 toLocaleTimeString을 불러 현재 시간을 가져올 수 있다.
 #### 클래스 컴포넌트 사용하기
 `import React, {extends 명} from "react";`        
 다 작성한 후 가장 밑에        
