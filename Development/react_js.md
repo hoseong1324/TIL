@@ -24,7 +24,7 @@ Class라는 단어가 EMCAScript6(ES6)의 클래서 문법과 겹치는 예약�
 
 
 ### React 시작
-cmd창을 열어 리액트를 사용하기위헤 프로젝트를 생성한다
+cmd창을 열어 리액트를 사용하기  프로젝트를 생성한다
 ```
 npm install (-g) create-react-app
 create-react-app 프로젝트이름
