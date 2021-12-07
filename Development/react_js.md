@@ -89,7 +89,7 @@ date라는 state를 만들었고, 초기값은 생성된 당시의 시간을 담
 이제 this.state.date로 date에 접근할 수 있다.      
 `this.state.date.toLocaleTimeString()`    
  date에는 date객체가 들어가 있기 때문에 date객체 내장 함수인 toLocaleTimeString을 불러 현재 시간을 가져올 수 있다.
-#### 클래스 컴포넌트 사용하기
+### 클래스 컴포넌트 사용하기
 `import React, {extends 명} from "react";`        
 다 작성한 후 가장 밑에        
 `export default Class명;`      
