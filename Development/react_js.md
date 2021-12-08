@@ -76,7 +76,7 @@ props를 활용할 때 div 안에 묶여있는 것은 묶인 값으로 꺼내어
 props는 읽기전용이므로 수정하려고 하면 에러가 발생한다      
 
 ### State 사용하기
-[출처](https://dev-pengun.tistory.com/entry/React-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EA%B8%B0%EC%B4%88-%EB%B0%B0%EC%9A%B0%EA%B8%B0-4-State-%EC%99%80-%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0?category=913270)
+[참조](https://dev-pengun.tistory.com/entry/React-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EA%B8%B0%EC%B4%88-%EB%B0%B0%EC%9A%B0%EA%B8%B0-4-State-%EC%99%80-%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0?category=913270)
 ```
     constructor(props) {
         super(props);
@@ -95,3 +95,14 @@ date라는 state를 만들었고, 초기값은 생성된 당시의 시간을 담
 `export default Class명;`      
 App.js 파일에       
 `import Class명 from '위치';`
+
+
+### 이벤트 핸들링 사용하기
+React 는 카멜표기법을 사용하며        
+`onclikc=함수()` 가 아닌 `onClick={함수}` 를 사용한다     
+
+이벤트 핸들링에 인자를 전달하는 방법은 두가지가 있다         
+=> 화살표를 사용하는 방법       
+`<button onClick= { () => this.Click("msg") }> click! </button>`     
+bind() 를 사용하는 방법             
+`<button onClick ={ this.Click.bind(this,"msg") }> click! </button>`     
