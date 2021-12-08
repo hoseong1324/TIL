@@ -101,8 +101,34 @@ App.js 파일에
 React 는 카멜표기법을 사용하며        
 `onclikc=함수()` 가 아닌 `onClick={함수}` 를 사용한다     
 
+event를 인자로 받고, e.preventDefault()를 호출하면, 이벤트의 기본동작은 동작하지 않게 되고 console.log만 된다     
+
 이벤트 핸들링에 인자를 전달하는 방법은 두가지가 있다         
 => 화살표를 사용하는 방법       
 `<button onClick= { () => Click("msg") }> click! </button>`     
 bind() 를 사용하는 방법             
 `<button onClick ={ Click.bind(자료형,"msg") }> click! </button>`     
+
+
+### 조건부 랜더링
+```
+function Login(){
+  return (
+    <button>로그인</button>
+  );
+}
+function Logout(){
+  return (
+    <button>로그아웃</button>
+  );
+}
+function UserButton(props){
+  if(props.isLoggenIn){
+    return <Logout/>;
+  }
+  return <Login/>;
+}
+```
+세가지의 함수를 만들고,      
+`<UserButton isLoggenIn={false}></UserButton>`     
+함수를 통하여 조건에 따라 다른 리턴값으로 버튼을 표출한다.
