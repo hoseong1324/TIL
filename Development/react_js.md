@@ -1,3 +1,4 @@
+[참조](https://dev-pengun.tistory.com/entry/React-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EA%B8%B0%EC%B4%88-%EB%B0%B0%EC%9A%B0%EA%B8%B0-4-State-%EC%99%80-%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0?category=913270)
 ### 리액트(React.js) 는 jsx 문법을 사용한다.    
 #### jsx 란 ?    
  JavaScript eXtension의 약자로 쉽게 말하면 자바스크립트 코드 내에 HTML 문법을 적은 것이다.     
@@ -76,7 +77,7 @@ props를 활용할 때 div 안에 묶여있는 것은 묶인 값으로 꺼내어
 props는 읽기전용이므로 수정하려고 하면 에러가 발생한다      
 
 ### State 사용하기
-[참조](https://dev-pengun.tistory.com/entry/React-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EA%B8%B0%EC%B4%88-%EB%B0%B0%EC%9A%B0%EA%B8%B0-4-State-%EC%99%80-%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0?category=913270)
+
 ```
     constructor(props) {
         super(props);
@@ -132,3 +133,20 @@ function UserButton(props){
 세가지의 함수를 만들고,      
 `<UserButton isLoggenIn={false}></UserButton>`     
 함수를 통하여 조건에 따라 다른 리턴값으로 버튼을 표출한다.
+{} 안에 jsx 를 사용하여 ?: 와 같이 삼항연산자를 사용 할 수도 있고  && 연산자 등을 통해 if의 조건으로도 사용 가능하다.     
+
+
+### 컴포넌트 랜더링 막기 
+```
+function WarningBanner(props){
+  if(!props.warn){
+    return null;
+  }
+  return(
+    <div className="warning">
+      Warning!!!
+    </div>
+  );
+}
+```
+특정 상황에만 렌더링 되어야 하는 컴포넌트는 return null을 이용해 렌더링 되지 않게 할 수 있다.
