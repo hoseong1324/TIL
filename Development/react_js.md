@@ -103,6 +103,6 @@ React 는 카멜표기법을 사용하며
 
 이벤트 핸들링에 인자를 전달하는 방법은 두가지가 있다         
 => 화살표를 사용하는 방법       
-`<button onClick= { () => this.Click("msg") }> click! </button>`     
+`<button onClick= { () => Click("msg") }> click! </button>`     
 bind() 를 사용하는 방법             
-`<button onClick ={ this.Click.bind(this,"msg") }> click! </button>`     
+`<button onClick ={ Click.bind(자료형,"msg") }> click! </button>`     
