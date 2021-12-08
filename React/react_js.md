@@ -1,4 +1,5 @@
 [참조](https://dev-pengun.tistory.com/entry/React-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EA%B8%B0%EC%B4%88-%EB%B0%B0%EC%9A%B0%EA%B8%B0-4-State-%EC%99%80-%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0?category=913270)
+[참조2- 이게 더 좋은 듯](https://velog.io/@somangoi/TIL042-React-Session-2-Router)
 ### 리액트(React.js) 는 jsx 문법을 사용한다.    
 #### jsx 란 ?    
  JavaScript eXtension의 약자로 쉽게 말하면 자바스크립트 코드 내에 HTML 문법을 적은 것이다.     
