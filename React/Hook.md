@@ -1,5 +1,5 @@
 ### Hook 이란 React 16.8버전 부터 적용가능한 클래스컴포넌트에서 사용하던 것들을 함수 컴포넌트에서 사용할 수 있게 해주는 것이다.
-[Hook을 이해하려면 여기](https://overreacted.io/ko/a-complete-guide-to-useeffect/)
+
 ### ⚡️ State Hook       
 {useState}     [참조](https://ko.reactjs.org/docs/hooks-state.html)
 ```
@@ -21,7 +21,8 @@ function Example() {
 
 
 ### ⚡️ Effect Hook     
-{useEffect}    [참조](https://ko.reactjs.org/docs/hooks-effect.html)
+{useEffect}    [공식문서](https://ko.reactjs.org/docs/hooks-effect.html)
+               [useEffect 참조](https://overreacted.io/ko/a-complete-guide-to-useeffect/)
 ```
 import React, { useState, useEffect } from 'react';
 
