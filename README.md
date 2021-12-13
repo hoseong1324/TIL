@@ -74,7 +74,7 @@
 * [React.js](React/react_js.md)
 * [Chat](React/Chat.md)
 * [구조](React/구조.md)
-* [버튼이벤트](React/Rendering.md)
+* [랜더링](React/Rendering.md)
 
 ### Linux
 * [Git 명령어](Linux/Git_명령어.md)
