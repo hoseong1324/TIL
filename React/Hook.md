@@ -50,7 +50,7 @@ function Example() {
 위와 같이 useEffect 를 사용함으로 인해 클래스컴포넌트에서는 각각 쪼개어 주던 생명주기 메서드를 한군데에 모아서 작성 할 수 있다.    
 document.title = 부분에 따옴표, 쌍따옴표 아니고 1옆에 있는 ` 이다 !!!
 
-### Hook 사용규칙
+### ⚡️ Hook 사용규칙
 Hook은 그냥 JavaScript 함수이지만, 두 가지 규칙을 준수해야 한다.
  
 최상위(at the top level)에서만 Hook을 호출해야 한다.       
