@@ -72,7 +72,6 @@
 
 ### React
 * [React.js](React/react_js.md)
-* [Chat](React/Chat.md)
 * [구조](React/구조.md)
 * [랜더링](React/Rendering.md)
 
