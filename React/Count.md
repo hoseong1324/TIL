@@ -1,8 +1,10 @@
 ``` 
+// useState 로 실시간 변경
 const [count, setCount] =useState(0);
 function countChk(){
   alert("현재 카운트는 " + count + "입니다");
 }
+// useEffect 로 타이틀 실시간 변경
 useEffect (() => {
   document.title = `카운팅 ${count} `;
 })
