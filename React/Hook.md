@@ -23,6 +23,7 @@ function Example() {
 
 
 ### ⚡️ Effect Hook     
+useEffect를 사용하기위해선 npm install axios 를 해주자    
 {useEffect}    [공식문서](https://ko.reactjs.org/docs/hooks-effect.html)        
                [useEffect 참조](https://overreacted.io/ko/a-complete-guide-to-useeffect/)
 ```
