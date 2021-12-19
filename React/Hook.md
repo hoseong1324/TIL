@@ -22,8 +22,7 @@ function Example() {
 위와 같이 useState를 사용함으로 인해 클래서컴포넌트에서 처럼 이전 state 와 현재 state를 합칠 필요가 없다.      
 
 
-### ⚡️ Effect Hook     
-useEffect를 사용하기위해선 npm install axios 를 해주자    
+### ⚡️ Effect Hook        
 {useEffect}    [공식문서](https://ko.reactjs.org/docs/hooks-effect.html)        
                [useEffect 참조](https://overreacted.io/ko/a-complete-guide-to-useeffect/)
 ```
