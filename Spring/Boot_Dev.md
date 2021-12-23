@@ -14,6 +14,6 @@
 ```
  ### 2. application.yaml/properties
  
- // 자동재시작 사용여부
+ // 자동재시작 사용여부     
 `spring.devtools.restart.enabled=true`      
 `spring.main.allow-bean-definition-overriding: true`
