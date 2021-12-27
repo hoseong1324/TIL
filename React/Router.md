@@ -17,7 +17,7 @@ react-router 는 react-router-dom 을 설치하면 같이 설치가 된다.
 ```
 이런 식으로 사용
 
-### exact 와 Switch 는 router-dom v6 부터 사용하지 않는다.     
+### exact 와 Switch 는 router-dom v6 부터 사용하지 않는다!!     
 - 변경전
 ```
 <Router>
@@ -40,8 +40,6 @@ react-router 는 react-router-dom 을 설치하면 같이 설치가 된다.
         </Routes>
       </Router>
 ```
-
-### v6부터 exact 와 Switch 를 사용하지 않음!
  
 ### 404 Page     
 `<Route path='*' element= {<div className="error">에러페이지</div>}/>`     
