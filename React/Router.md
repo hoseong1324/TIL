@@ -21,13 +21,11 @@ react-router 는 react-router-dom 을 설치하면 같이 설치가 된다.
 - 변경전
 ```
 <Router>
-        <Routes>
         <Switch>
         <Route path='/'exact  component={SignPage} />
         <Route path='/main' component={MainPage} />
         <Route path='/profile' component={ProfilePage} />
         </Switch>
-        </Routes>
       </Router>
 ```
 - 변경후
