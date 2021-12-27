@@ -1,6 +1,7 @@
   /// feign client Bean 중복에러    
-apllication.yaml 추가      
-spring.main.allow-bean-definition-overriding : true    
+apllication.yaml 또는 application.properties 파일에       
+`spring.main.allow-bean-definition-overriding : true`     
+추가
 
 ### 1. 라이브러리 사용 디펜던시 작성
 #### maven 일 경우
