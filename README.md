@@ -77,6 +77,7 @@
 * [랜더링](React/Rendering.md)
 * [Hook](React/Hook.md)
 * [Router](React/Router.md)
+* [V6_Router변경](React/v6_change.md)
 
 ### Linux
 * [Git 명령어](Linux/Git_명령어.md)
