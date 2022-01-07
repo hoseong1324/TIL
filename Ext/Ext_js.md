@@ -2,7 +2,7 @@
 ```
 Ext.onReady(function){
   Ext.create("Ext.containor.Viewport", {
-    renderTo : Ext.getBody(),     // 어떤 태그에 뿌릴 것인지
+    renderTo : Ext.getBody(),     // 어떤 태그에 뿌릴 것인지(보여질 것인지)
     border : true,
     layout : 'fit',               // 반응형(fit)
     items : [{                    // Json arry 형태
