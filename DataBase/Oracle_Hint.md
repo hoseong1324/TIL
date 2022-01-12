@@ -16,19 +16,16 @@ EPM_IDX02 = 인덱스 명
 - INDEX_DESC : 내림차순 정렬
 
 
+
+### 자주 쓰이는 힌트 목록
+
 1. 최적화 목표
 ```
 - /*+ALL_LOWS */: 전체 처리속도 최적화
 
 -/*+FIRST_ROWS(N) */ : 최초 N건 응답속도 최적화
 ```
- 
-
- 
-
- 
-
-2.액세스 방식
+2. 액세스 방식
 ```
 - /*+FULL */ :인덱스 타지말고 바로 테이블 풀스캔으로 접근해라
 
@@ -40,12 +37,6 @@ EPM_IDX02 = 인덱스 명
 
 - /*+INDEX_SS */: INDEX SKIP SCAN
 ```
- 
-
- 
-
- 
-
 3. 조인순서
 ```
 - /*+ORDERED */: FROM절에 나열된 테이블 순서대로 조인해라
@@ -60,12 +51,6 @@ EPM_IDX02 = 인덱스 명
 
                               --해시조인의경우 BUILD INPUT과 PROBE에 대한 순서를 정할 수 있다. 
 ```
- 
-
- 
-
- 
-
 4. 조인방식
 ```
 - /*+USE_NL */ :NL(NESTED LOOP - 중첩루프)방식 조인 유도
@@ -80,12 +65,6 @@ EPM_IDX02 = 인덱스 명
 
 -/*+HASH_SJ */: 해시 세미조인으로 유도
 ```
- 
-
- 
-
- 
-
 5. 서브쿼리팩토링
 ```
 - /*+MATERIALIZE */: WITH문으로 정의한 집합을 물리적으로 생성하도록 유도 
@@ -96,13 +75,7 @@ EX) WITH /*+ MATERIALIZE*/ T AS (SELECT ...)
 
 EX)WITH /*+ INLINE*/ T AS (SELECT ...)
 ```
- 
-
- 
-
- 
-
-6.쿼리변환
+6. 쿼리변환
 ```
 - /*+ MEERGE */: 뷰 머징 유도
 
@@ -120,13 +93,7 @@ EX)WITH /*+ INLINE*/ T AS (SELECT ...)
 
 - /*+NO_EXPAND */: OR 또는 IN-LIST 조건에 대한 OR-EXPANSION방지
 ```
- 
-
- 
-
- 
-
-7.병렬처리
+7. 병렬처리
 ```
 - /*+PARALLEL */: 테이블 스캔,  DML 병렬방식으로 처리하도록 할때 사용.. 단일 대형 테이블의 접근시 정말 많이 쓴다.
 
@@ -138,14 +105,7 @@ EX)WITH /*+ INLINE*/ T AS (SELECT ...)
 
                         EX) PQ_DISTRIBUTE(T1 HASH(--BUILD INPUT) HASH(--PROBE TABLE))
 
- ```
-
- 
-
- 
-
- 
-
+```
 8. 그외 기타
 ```
 - /*+APPEND*/: DIRECT PATH INSERT유도로  INSERT  문에 주로 많이 쓴다
