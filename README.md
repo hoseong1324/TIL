@@ -40,6 +40,7 @@
 * [Oracle 다중조건 포함(Like)](DataBase/Oracle_다중조건_포함.md)
 * [쿼리예제](DataBase/쿼리_예제.md)
 * [오라클 힌트](DataBase/Oracle_Hint.md)
+* [오라클 실행계획(Explain)](DataBase/Oracle_Explain.md)
  
 ### JavaScript, Jquery, JSTL
 * [Import](Script,Jquery,JSTL/Import.md) 
