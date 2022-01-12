@@ -25,3 +25,6 @@ ORDER BY I.BLEVEL DESC;
 `ALTER INDEX [인덱스명] REBUILD;`
 ### 전체 인덱스 리빌드 쿼리
 `SELECT 'ALTER INDEX ' ||INDEX_NAME|| ' REBUILD' FROM USER_INDEXES;`
+
+## INDEX 사용은 전체 데이터의 10~15% 정도의 데이터가 필요할 때 사용하고, 마지막 사용방법으로 강구하는 것이 좋다 .
+## 데이터베이스의 부하를 막기위하여
