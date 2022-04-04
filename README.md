@@ -83,7 +83,7 @@
 * [V6_Router변경](React/v6_change.md)
 
 ### Ext
-* [Ext.js()](Ext/Ext_js.md)
+* [Ext.js(추가없음)](Ext/Ext_js.md)
 
 ### Linux
 * [Git 명령어](Linux/Git_명령어.md)
